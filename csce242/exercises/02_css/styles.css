@@ -1,19 +1,44 @@
 body{
-    background:violet;
+    background:forestgreen;
     font-family:Arial;
 }
-div{
+#content{
     background:white;
     padding: 5px;
     margin: 20px auto;
     width: 70%;
+    border-radius: 10px;
+    border: 5px solid gray;
 }
+/*Navigation*/
+#main-nav ul{
+    padding-left: 0; /*remove lit indent*/
+    width:fit-content;
+    margin:auto;
+}
+#main-nav li{
+    list-style-type: none; /* remove bullets*/
+    display: inline-block;
+}
+#main-nav a{
+    text-decoration: none; /*remove underline on links*/
+    background:#FF8DA1;
+    color:darkmagenta;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+}
+#main-nav a:hover{
+    background: black;
+    color:#FF8DA1;
+}
+
 
 /*Typography*/
 h1{
-    color:red;
+    color:lightblue;
 }
 /* comment */
 p{
-    color:blue;
+    color:rgb(74, 74, 160);
 }
