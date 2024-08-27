@@ -1,0 +1,14 @@
+body{
+    background: lightgoldenrodyellow;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h2{
+    color:blueviolet;
+}
+#main-content a{
+    color:darkgoldenrod;
+    background-color:#222266;
+    text-decoration:none;
+    padding: 2px;
+    margin: 3px;
+}
