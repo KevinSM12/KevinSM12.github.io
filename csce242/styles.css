@@ -2,13 +2,28 @@ body{
     background: lightgoldenrodyellow;
     font-family:Arial, Helvetica, sans-serif;
 }
-h2{
+#main-content h1{
+    color:rgb(108, 34, 178);
+}
+#main-content h2{
     color:blueviolet;
 }
 #main-content a{
-    color:darkgoldenrod;
+    color:rgb(188, 168, 119);
     background-color:#222266;
     text-decoration:none;
     padding: 2px;
     margin: 3px;
+}
+#main-content a:hover{
+    background:white;
+    color:black;
+}
+#main-content{
+    background:rgb(243, 218, 255);
+    padding: 7px;
+    margin: 15px auto;
+    width: 90%;
+    border-radius: 2px;
+    border: 3px solid plum;
 }

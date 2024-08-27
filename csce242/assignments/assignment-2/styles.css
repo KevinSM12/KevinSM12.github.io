@@ -1,0 +1,63 @@
+body{
+    background-image:url("images/forest.jpg");
+    font-family:Arial, Helvetica, sans-serif;
+}
+#content{
+    background:#DEFECA;
+    padding:10px;
+    border-radius:6px;
+    border:3px solid lightgreen;
+    width:90%;
+    margin:auto;
+}
+/*navigation*/
+#main-nav ul{
+    padding-left:0;
+    width:fit-content;
+    margin:auto;
+}
+#main-nav li{
+    list-style-type:none;
+    display:inline-block;
+}
+#main-nav a{
+    text-decoration:none;
+    background-color:#A7FC72;
+    color:forestgreen;
+    padding:5px;
+    margin:5px;
+    border-radius:3px;
+}
+#main-nav a:hover{
+    background-color:forestgreen;
+    color:#A7FC72;
+}
+h1{
+    width:fit-content;
+    padding:10px;
+    margin:auto;
+    color:#72FC76;
+}
+h2{
+    width:fit-content;
+    padding:10px;
+    margin:auto;
+    color:#57c65b;
+}
+#pic1{
+    margin:auto
+}
+#pic2{
+    margin:auto;
+}
+p{
+    color:rgb(72, 150, 72);
+}
+#main-table{
+    border:5px solid green;
+    width:90%;
+    margin:auto;
+    border-radius:4px;
+    color:#57c65b;
+    background-color:#A7FC72;
+}
