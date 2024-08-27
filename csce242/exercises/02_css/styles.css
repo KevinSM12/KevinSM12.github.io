@@ -1,0 +1,19 @@
+body{
+    background:violet;
+    font-family:Arial;
+}
+div{
+    background:white;
+    padding: 5px;
+    margin: 20px auto;
+    width: 70%;
+}
+
+/*Typography*/
+h1{
+    color:red;
+}
+/* comment */
+p{
+    color:blue;
+}
