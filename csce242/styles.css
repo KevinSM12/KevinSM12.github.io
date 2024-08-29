@@ -1,29 +1,75 @@
+/*Structure*/
 body{
     background: lightgoldenrodyellow;
     font-family:Arial, Helvetica, sans-serif;
 }
-#main-content h1{
-    color:rgb(108, 34, 178);
-}
-#main-content h2{
+header h1{
+    text-align: center;
     color:blueviolet;
 }
-#main-content a{
-    color:rgb(188, 168, 119);
-    background-color:#222266;
-    text-decoration:none;
-    padding: 2px;
-    margin: 3px;
+header h2{
+    text-align: center;
+    color:blueviolet;
 }
-#main-content a:hover{
-    background:white;
-    color:black;
+header h3{
+    padding-left:10px;
+    color:rgb(192, 152, 230)
 }
-#main-content{
+#assignment-1{
     background:rgb(243, 218, 255);
     padding: 7px;
     margin: 15px auto;
     width: 90%;
     border-radius: 2px;
     border: 3px solid plum;
+}
+#assignment-2{
+    background:rgb(243, 218, 255);
+    padding: 7px;
+    margin: 15px auto;
+    width: 90%;
+    border-radius: 2px;
+    border: 3px solid plum;
+}
+#assignment-3{
+    background:rgb(243, 218, 255);
+    padding: 7px;
+    margin: 15px auto;
+    width: 90%;
+    border-radius: 2px;
+    border: 3px solid plum;
+}
+footer p{
+    text-align: center;
+}
+img{
+    padding:10px;
+}
+.center{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:200px;
+}
+/*Navigation*/
+#assignments a{
+    text-align: center;
+    text-decoration:none;
+}
+/*Typography*/
+
+/*Media Queries*/
+@media screen and (min-width:600px){
+    .columns{
+        display:flex;
+    }
+    .one{
+        flex:1;
+    }
+    .center{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        width:200px;
+    }
 }
