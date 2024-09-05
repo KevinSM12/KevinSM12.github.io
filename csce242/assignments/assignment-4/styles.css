@@ -1,0 +1,164 @@
+:root{
+    --black:#000000;
+    --maroon:#73000A;
+    --grey:#ECECEC;
+    --white:#ffffff;
+}
+/**structure*/
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: var(--black);
+}
+
+header{
+    background-color: var(--black);
+    margin:0px;
+    position:sticky;
+}
+
+#main-logo{
+    width: 350px;
+    margin-left:8%;
+    position: relative;
+    top:4%;
+}
+
+#bottom-logo{
+    width: 350px;
+    margin-left:8%;
+}
+
+#school-admissions{
+    background-color:var(--white);
+    padding-bottom:30px;
+}
+
+
+#school-admissions h1{
+    background-color:var(--white);
+    position:relative;
+    color:var(--maroon);
+    padding:35px;
+    margin-left:
+}
+
+#inside-school{
+    margin-left:25%;
+    margin-right:25%;
+    padding-top:30px;
+}
+/**Navigation*/
+#gateways-nav {
+    display:none;
+}
+
+#main-nav{
+    color:var(--white);
+    
+}
+
+#main-nav ul{
+    padding-left:0;
+}
+
+#main-nav li{
+        
+    background-color:var(--black);
+    border:var(--white) solid 2px;
+    width:100%;
+}
+
+#main-nav a{
+    text-decoration:none;
+    font-weight:bold;
+    color:var(--white);
+}
+/**Typography*/
+
+#inside-school h3{
+    color:var(--black);
+    font-weight:bold;
+}
+
+#inside-school p{
+    color:var(--black);
+}
+/**Media Queries*/
+.columns{
+    display:flex;
+}
+.one{
+    flex:1;
+}
+.two{
+    flex:2;
+}
+@media only screen and (min-width:800px){
+    .columns{
+        display:flex;
+    }
+
+    .one{
+        flex: 1;
+    }
+
+    .two{
+        flex: 2;
+    }
+
+    #main-nav{
+        background-color:var(--maroon);
+    }
+
+    #main-nav li{
+        list-style-type: none;
+        padding: 10px;
+        background-color:var(--maroon);
+        border:none;
+        
+    }
+    
+    #gateways-nav{
+        display:flex;
+        color:var(--white);
+        position: relative;
+        left:55%;
+    }
+    
+    #gateways-nav p{
+        font-size: 9px;
+        font-weight:bold;
+    }
+    
+    #gateways-nav ul{
+        padding-left:0;
+    }
+    
+    #gateways-nav li{
+        list-style-type: none;
+    }
+
+    #calendar li{
+        border-right:var(--white) solid 1px;
+        list-style-type:none;
+        display:block;
+    }
+    
+    #gateways-nav a{
+        margin-left: 5px;
+        margin-right: 5px;
+        padding:none;
+        text-decoration:none;
+        color:var(--white);
+        font-size: 9px;
+    }
+
+    #school-admissions h1{
+        background-color:#73000A;
+        color:var(--white);
+        padding:15px;
+        position:absolute;
+        left:120px;
+        top:1050px;
+    }
+}
