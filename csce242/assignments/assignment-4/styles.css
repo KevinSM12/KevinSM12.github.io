@@ -7,7 +7,6 @@
 /**structure*/
 body{
     font-family:Arial, Helvetica, sans-serif;
-    background-color: var(--black);
 }
 
 header{
@@ -39,19 +38,162 @@ header{
     position:relative;
     color:var(--maroon);
     padding:35px;
-    margin-left:
+}
+
+
+#degree-programs{
+    background-color:var(--maroon);
+    padding:30px;
+}
+
+#degree-programs h2{
+    padding-left:20px;
+    padding-top:15%;
+}
+
+#degree-programs p{
+    padding-left:20px;
+    padding-right:30%;;
 }
 
 #inside-school{
-    margin-left:25%;
-    margin-right:25%;
-    padding-top:30px;
+    padding:5px;
+    margin:5px;
 }
+#educational-investment{
+    background-color:var(--grey);
+    padding:30px;
+}
+
+#application-requirements{
+    background-color:var(--black);
+    border:var(--white) solid 2px;
+    display:block;
+    padding:20px;
+    margin-left:13%;
+    margin-right:12%;
+}
+
+#tuition-fees{
+    background-color:var(--maroon);
+    border:var(--white) solid 2px;
+    padding:20px;
+    text-align:center;
+    margin-left:22%;
+    margin-right:22%;
+}
+
+#educational-investment h1{
+    color:var(--maroon);
+    margin-left:10px;
+    margin-right:10px;
+    text-align:center;
+    font-weight:bold;
+}
+
+#educational-investment p{
+    padding:5px;
+    margin-left:10px;
+    margin-right:10px;
+    text-align:center;
+}
+
+#paying h1{
+    color:var(--maroon);
+    margin-left:20%;
+    margin-right:20%;
+    font-weight:bold;
+}
+
+#paying-links h4{
+    margin-left:10px;
+    color:var(--maroon);
+}
+
+#paying p{
+    margin-left:5px;
+    margin-right:5px;
+    text-align:center;
+}
+
+#paying-links p{
+    margin-left:10px;
+    margin-right:10px;
+    text-align:left;
+    color:var(--black);
+}
+
+#next-step{
+    background-color:var(--black);
+    padding-bottom:20px; 
+}
+
+#apply{
+    background-color:var(--maroon);
+    padding:10px;
+    border: var(--white) solid 2px;
+    margin-left:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:42%;
+}
+
+#bottom-div{
+    background-color:var(--maroon);
+    color:var(--white);
+    margin-bottom:0;
+}
+
+#bottom-div h5{
+    margin-left:20px;
+    margin-right:20px;
+    padding-bottom:5px;
+    border-bottom:var(--white) solid 2px;
+}
+
+#bottom-nav{
+    padding-left:20px;
+}
+
+#bottom-logo{
+    position:relative;
+    left:10px;
+}
+
+#bottom-div img{
+    padding:10px;
+}
+
+.rows{
+    display:flex;
+}
+
+.uno{
+    flex:1;
+}
+
+#social{
+    margin-left:30%;
+    margin-right:30%;
+}
+
 /**Navigation*/
 #gateways-nav {
     display:none;
 }
 
+#bottom-nav ul{
+    padding-left:0;
+}
+
+#bottom-nav li{
+    list-style-type: none;
+}
+
+#bottom-nav a{
+    text-decoration:none;
+    color:var(--white);
+}
 #main-nav{
     color:var(--white);
     
@@ -62,7 +204,6 @@ header{
 }
 
 #main-nav li{
-        
     background-color:var(--black);
     border:var(--white) solid 2px;
     width:100%;
@@ -73,7 +214,66 @@ header{
     font-weight:bold;
     color:var(--white);
 }
+
+#application-requirements a{
+    text-decoration:none;
+    color:var(--white);
+    font-weight:bold;
+}
+
+#tuition-fees a{
+    text-decoration:none;
+    color:var(--white);
+    font-weight:bold;
+}
+
+#paying-links a{
+    text-decoration:none;
+}
+
+#next-step img{
+    margin-left:15px;
+}
+
+#main-footer nav{
+    background-color:var(--black);
+    
+}
+
+#main-footer ul{
+    padding-left:0;
+}
+
+#main-footer li{
+    text-align:center;
+    list-style-type: none;
+}
+
+#main-footer a{
+    text-decoration:none;
+    color:var(--white);
+}
+
 /**Typography*/
+
+#apply a{
+    text-decoration:none;
+    color:var(--white);
+    font-weight:bold;
+}
+
+#next-step h2{
+    margin-left:20px;
+    color:var(--white);
+}
+
+#next-step p{
+    margin-left:20px;
+    margin-right:7px;
+    margin-top:5px;
+    margin-bottom:10px;
+    color:var(--white);
+}
 
 #inside-school h3{
     color:var(--black);
@@ -83,16 +283,12 @@ header{
 #inside-school p{
     color:var(--black);
 }
+
+#degree-programs{
+    color:var(--white);
+}
+
 /**Media Queries*/
-.columns{
-    display:flex;
-}
-.one{
-    flex:1;
-}
-.two{
-    flex:2;
-}
 @media only screen and (min-width:800px){
     .columns{
         display:flex;
@@ -154,11 +350,106 @@ header{
     }
 
     #school-admissions h1{
-        background-color:#73000A;
+        background-color:var(--maroon);
         color:var(--white);
         padding:15px;
         position:absolute;
         left:120px;
         top:1050px;
+    }
+
+    #inside-school h3{
+        color:var(--black);
+        font-weight:bold;
+        display:block;
+    }
+
+    #inside-school p{
+        color:var(--black);
+    }
+    
+    #educational-investment h1{
+        color:var(--maroon);
+        margin-left:30%;
+        margin-right:30%;
+        font-weight:bold;
+    }
+    
+    #educational-investment p{
+        padding:10px;
+        margin-left:20%;
+        margin-right:20%;
+        text-align:center;
+    }
+
+    #application-requirements{
+        background-color:var(--black);
+        border:var(--white) solid 2px;
+        margin-left:20px;
+        display:block;
+        padding:20px;
+        margin-top:30px;
+        margin-right: 55%;;
+    }
+
+    #tuition-fees{
+        background-color:var(--maroon);
+        border:var(--white) solid 2px;
+        padding:20px;
+        text-align:center;
+        margin-left:42%;
+        margin-right:42%;
+    }
+
+    #inside-school{
+        margin-left:25%;
+        margin-right:25%;
+        padding-top:30px;
+    }
+    
+    #tuition-fees{
+        background-color:var(--maroon);
+        border:var(--white) solid 2px;
+        padding:20px;
+        text-align:center;
+        margin-left:42%;
+        margin-right:42%;
+    }
+
+    #paying h1{
+        margin-left:40%;
+        margin-right:40%;
+    }
+
+    #next-step h2{
+        margin-left:20px;
+        color:var(--white);
+    }
+
+    #next-step p{
+        margin-left:20px;
+        margin-right:7px;
+        margin-top:15px;
+        margin-bottom:10px;
+        color:var(--white);
+    }
+
+    #next-step img{
+        margin-left:25%;
+    }
+
+    #apply{
+        background-color:var(--maroon);
+        padding:20px;
+        border: var(--white) solid 2px;
+        margin-left:20px;
+        margin-top:30px;
+        margin-bottom:10px;
+        margin-right:82%;
+    }
+
+    #social{
+        display:inline;
+        margin-left:750px;
     }
 }
