@@ -43,7 +43,7 @@ header{
 
 #degree-programs{
     background-color:var(--maroon);
-    padding:30px;
+    padding:50px;
 }
 
 #degree-programs h2{
@@ -57,12 +57,11 @@ header{
 }
 
 #inside-school{
-    padding:5px;
-    margin:5px;
+    padding:30px;
 }
 #educational-investment{
     background-color:var(--grey);
-    padding:30px;
+    padding:60px;
 }
 
 #application-requirements{
@@ -97,7 +96,9 @@ header{
     margin-right:10px;
     text-align:center;
 }
-
+#paying{
+    padding:50px;
+}
 #paying h1{
     color:var(--maroon);
     margin-left:20%;
@@ -125,7 +126,8 @@ header{
 
 #next-step{
     background-color:var(--black);
-    padding-bottom:20px; 
+    padding-bottom:20px;
+     
 }
 
 #apply{
@@ -142,6 +144,7 @@ header{
     background-color:var(--maroon);
     color:var(--white);
     margin-bottom:0;
+    padding:10px;
 }
 
 #bottom-div h5{
@@ -177,6 +180,16 @@ header{
     margin-right:30%;
 }
 
+#x{
+    position:relative;
+    left:1300px;
+    bottom:55px;
+}
+
+#main-footer{
+    background-color: var(--black);
+    padding:10px;
+}
 /**Navigation*/
 #gateways-nav {
     display:none;
@@ -450,6 +463,6 @@ header{
 
     #social{
         display:inline;
-        margin-left:750px;
+        margin-left:700px;
     }
 }
