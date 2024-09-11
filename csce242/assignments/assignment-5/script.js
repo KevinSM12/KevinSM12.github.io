@@ -1,8 +1,8 @@
 //author: Kevin Snyder-Mounts
 
-let val = slider.nodeValue;
+let val = '${slider.value}px';
 document.getElementById("main-slider").oninput = ()=>{
-    document.getElementById("slider-image").style.left = document.getElementById("main-slider").value;
+    document.getElementById("slider-image").style.left = val;
 }
 
 document.getElementById("rand-image").onclick = ()=>{
@@ -11,6 +11,6 @@ document.getElementById("rand-image").onclick = ()=>{
 
 let num = 0;
 document.getElementById("counter").onclick = ()=>{
-    num = num+1;
+    num++;
     document.getElementById("count").innerHTML = num;
 }

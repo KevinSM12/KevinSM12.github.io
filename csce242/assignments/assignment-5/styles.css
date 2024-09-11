@@ -32,6 +32,7 @@ body{
 
 #rand-image{
     text-align:center;
+    background-color: var(--aqua);
 }
 
 .slider-container{
@@ -57,6 +58,10 @@ body{
 #slider h5{
     margin-left:35%;
     margin-right:35%;
+}
+
+#slider{
+    background-color:var(--pink);
 }
 
 @media only screen and (min-width:600px){
