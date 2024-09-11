@@ -1,7 +1,8 @@
 //author: Kevin Snyder-Mounts
 
-let val = document.getElementById("main-slider").value+"%";
+
 document.getElementById("main-slider").oninput = ()=>{
+    let val = document.getElementById("main-slider").value+"px";
     document.getElementById("slider-image").style.left = val;
 }
 
