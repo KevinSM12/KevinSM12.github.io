@@ -1,6 +1,6 @@
 //author: Kevin Snyder-Mounts
 
-let val = slider.value+"px";
+let val = document.getElementById("main-slider").value+"%";
 document.getElementById("main-slider").oninput = ()=>{
     document.getElementById("slider-image").style.left = val;
 }
