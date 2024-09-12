@@ -22,3 +22,15 @@ newButton.onclick = ()=>{
 document.getElementById("btn-column").onclick = ()=>{
     document.getElementById("section-1").classList.add("remove");
 }
+
+//showing data from input log
+/*
+document.getElementById("txt-first-name").onkeyup =()=>{
+    const textBox = document.getElementById("txt-first-name");
+    document.getElementById("result").innerHTML = textBox.value;
+}
+*/
+
+document.getElementById("txt-first-name").onkeyup = (event)=>{
+    document.getElementById("result").innerHTML = event.target.value;
+}
