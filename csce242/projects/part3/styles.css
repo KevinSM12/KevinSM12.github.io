@@ -3,6 +3,8 @@
     --sec:#BEBEBE;
     --teri:#333333;
     --white:white;
+    --grey:gray;
+    --black:black;
 }
 
 /*Structure*/
@@ -105,6 +107,24 @@ body{
 
 #about-img img{
     width:100%;
+}
+
+#contact{
+    background-color: var(--grey);
+    border-radius: 20px;
+    margin-left:15%;
+    margin-right:15%;
+    text-align:left;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#contact h4{
+    margin-left:7px;
+}
+
+#contact p{
+    margin-left:7px;
 }
 
 /*Navigation*/
