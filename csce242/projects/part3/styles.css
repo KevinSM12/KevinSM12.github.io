@@ -149,7 +149,6 @@ body{
 #main-nav a{
     text-decoration:none;
     color:var(--teri);
-    display:block;
 }
 
 #records a{
