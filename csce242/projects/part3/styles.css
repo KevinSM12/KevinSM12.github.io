@@ -26,8 +26,8 @@ body{
 
 #logo{
     position:absolute;
-    left:95%;
-    top:3.5%;;
+    left:85%;
+    top:6%;
 }
 
 #leagues a{
@@ -85,28 +85,56 @@ body{
     color:var(--black);
 }
 
+#about{
+    text-align:center;
+}
+
+#about hr{
+    margin-left:15%;
+    margin-right:15%;
+}
+
+#about p{
+    margin-left:15%;
+    margin-right:15%;
+}
+
+#about-img{
+    width:auto;
+}
+
+#about-img img{
+    width:100%;
+}
+
 /*Navigation*/
+
+#main-nav{
+    width:100%;
+}
 
 #main-nav ul{
     padding-left:0;
+    width:100%;
 }
 
 #main-nav li{
     background-color:var(--white);
     list-style-type: none;
     text-align:center;
-    width:100%;
-    padding:5px;
     border:var(--teri) solid 1px;
+    width:auto;
 }
 
 #main-nav a{
     text-decoration:none;
     color:var(--teri);
+    display:block;
 }
 
 #records a{
     text-decoration:none;
+    color:var(--black);
 }
 
 /*Media Queries*/
@@ -116,5 +144,15 @@ body{
     }
     .one{
         flex:1;
+    }
+    #logo{
+        position:absolute;
+        left:95%;
+        top:3.5%;;
+    }
+    #about-img{
+        width:max-content;
+        position:relative;
+        left:23%;
     }
 }
