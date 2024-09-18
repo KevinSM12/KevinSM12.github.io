@@ -109,6 +109,14 @@ hr{
     width:100%;
 }
 
+#message{
+    height:50px;
+    width:30%;
+    margin-left:80px;
+    position: relative;
+    bottom:35px;
+}
+
 #contact{
     background-color: var(--grey);
     border-radius: 20px;
@@ -116,7 +124,6 @@ hr{
     margin-right:15%;
     text-align:left;
     padding-top:10px;
-    padding-bottom:10px;
 }
 
 #contact h4{
@@ -164,7 +171,7 @@ hr{
 }
 
 #submit-btn{
-
+    padding:5px;
 }
 
 #page-content{
@@ -230,10 +237,11 @@ hr{
         top:3.5%;;
     }
     #about-img{
-        width:max-content;
-        position:relative;
-        left:23%;
+        width:70%;
+        margin-left:15%;
+        margin-right:15%;
     }
+
     #leagues a{
         text-align:center;
         background-color:var(--teri);
