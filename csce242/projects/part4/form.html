@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Kevin Snyder-Mounts CSCE 242-->
+        <link rel="stylesheet" href="styles.css">
+        <title>Basketball-Records-Elite</title>
+    </head>
+    <body>
+        <header id="main-header">
+            <h3>Basketball Records Elite</h3>
+            <img src="images/basketball-logo.jpg" id="logo">
+            <nav id="main-nav">
+                <ul class="columns">
+                    <a href="index.html" class="one"><li><p>Home</p></li></a>
+                    <a href="records.html" class="one"><li><p>Records</p></li></a>
+                    <a href="about.html" class="one"><li><p>About Us</p></li></a>
+                    <a href="form.html" class="one"><li><p>Add Form</p></li></a>
+                </ul>
+            </nav>
+        </header>
+        <div id="form-content">
+            <h1>Addition Form</h1>
+            <hr />
+            <p>
+                <label for="email-txt">Email:</label>
+                <input type="text" id="email-txt">
+            </p>
+            <p>
+                <label for="league-txt">League:</label>
+                <input type="text" id="league-txt">
+            </p>
+            <p>
+                <label for="record-txt">Record:</label>
+                <input type="text" id="record-txt">
+            </p>
+            <p>
+                <label for="rec-hold-txt">Current Record Holder:</label>
+                <input type="text" id="rec-hold-txt">
+            </p>
+            <p>
+                <label for="desc-rec-hold-txt">Description of Current Record Holder:</label>
+                <textarea id="desc-rec-hold-txt"></textarea>
+            </p>
+            <p>
+                <label for="prev-hold-txt">Previous Record Holder:</label>
+                <input type="text" id="prev-hold-txt">
+            </p>
+            <p>
+                <label for="desc-prev-hold-txt-txt">Description of Previous Record Holder:</label>
+                <textarea id="desc-prev-hold-txt"></textarea>
+            </p>
+            <button id="submit-btn">Submit Record</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
