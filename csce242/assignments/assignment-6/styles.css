@@ -1,0 +1,139 @@
+:root{
+    --pri:navy;
+    --sec:silver;
+    --ter:black;
+}
+
+/*Structure*/
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:var(--silver);
+}
+
+#content{
+    background-color: var(--pri);
+
+}
+
+#content h1{
+    text-align:center;
+}
+
+#content h2{
+    text-align:center;
+    color:var(--sec);
+}
+
+#content h3{
+    text-align:center;
+}
+
+#color-slider{
+    background-color:var(--ter);
+    padding:100px;
+}
+
+#color-slider h3{
+    color:white;
+}
+
+.slider-container{
+    width:100%;
+}
+
+.slider{
+    appearance: none;
+    width:100%;
+    height:100%;
+    background-color:var(--sec);
+    outline:none;
+}
+
+#pic-choose{
+    display:none;
+    background-color:var(--ter);
+    padding:100px;
+}
+
+#pic-choose h3{
+    color:white;
+}
+
+.hide{
+    display: none;
+}
+
+.hide-sml{
+    display: none;
+}
+
+/*Navigation*/
+
+#nav-items{
+    padding-left:0;
+    margin-left:30px;
+}
+
+#main-nav li{
+    list-style-type: none;
+}
+
+#down-arrow{
+    display:block;
+    margin-left:30px;
+}
+#up-arrow{
+    margin-left:30px;
+}
+
+#exercise-1{
+    margin-left:5px;
+    margin-right:5px;
+}
+
+#exercise-2{
+    margin-left:5px;
+    margin-right:5px;
+}
+
+#pipe{
+    display:none;
+}
+
+
+
+/*Media Queries*/
+/*when screen is big*/
+@media only screen and (min-width:600px){
+    .columns{
+        display:flex;
+    }
+    .one{
+        flex:1;
+    }
+    #exercise-1{
+        display:flex;
+    }
+    #exercise-2{
+        display:flex;
+    }
+    #down-arrow{
+        margin-left:30px;
+    }
+    #up-arrow{
+        margin-left:30px;
+    }
+    .hide-big{
+        display:none;
+    }
+    #pipe{
+        display:flex;
+    }
+    #down-arrow{
+        display:none;
+    }
+    #nav-items{
+        text-align:center;
+    }
+}
