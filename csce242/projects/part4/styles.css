@@ -33,7 +33,7 @@ hr{
 #logo{
     position:absolute;
     left:85%;
-    top:6%;
+    top:3%;
 }
 
 #leagues a{
@@ -43,6 +43,38 @@ hr{
 
 #leagues h1{
     color:var(--prim);
+}
+
+#league-nba{
+    width:auto;
+}
+
+#league-nba img{
+    width:100%;
+}
+
+#league-wnba{
+    width:auto;
+}
+
+#league-wnba img{
+    width:100%;
+}
+
+#league-fiba{
+    width:auto;
+}
+
+#league-fiba img{
+    width:100%;
+}
+
+#league-ncaa{
+    width:auto;
+}
+
+#league-ncaa img{
+    width:100%;
 }
 
 #lower-half a{

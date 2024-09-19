@@ -5,6 +5,9 @@ document.querySelector("#toggle-nav").onclick = ()=>{
     if(document.getElementById("nav-items").contains("hide-sml")){
         arrow.innerHTML = "&#8593;";
         document.querySelector("#nav-items").classList.toggle("hide-sml");
+    }else if(!document.getElementById("nav-items").contains("hide-sml")){
+        arrow.innerHTML = "&#8595;";
+        document.querySelector("#nav-items").classList.toggle("hide-sml");
     }
 }; 
 
