@@ -11,7 +11,7 @@
             <h2>If Statements</h2>
             <div id="toggle-nav">
                 <p id="up-arrow" class="hide-big hide-sml">&#8593;</p>
-                <p id="down-arrow" class="hide-big">&#8595;</p>
+                <p id="down-arrow" class="hide-big hide">&#8595;</p>
             </div>
             <nav id="main-nav">
                 <ul id="nav-items" class="columns hide-sml">
@@ -20,20 +20,20 @@
                     <li><p id="exercise-2">Exercise-2</p></li>
                 </ul>
             </nav>
-            <div id="color-slider">
+            <div id="color-slider" class="show">
                 <h3>Color Slider</h3>
                 <div class="slider-container">
                     <input type="range" min="0" max="255" value="0" class="slider" id="main-slider">
                 </div>
             </div>
-            <div id="pic-choose">
+            <div id="pic-choose" class="hide">
                 <h3>Picture Chooser</h3>
                 <button id="sml">Small</button>
                 <button id="med">Medium</button>
                 <button id="lrg">Large</button>
-                <img id="sml-pic" src=" https://picsum.photos/200">
-                <img id="med-pic" src=" https://picsum.photos/350">
-                <img id="lrg-pic" src=" https://picsum.photos/500">
+                <img id="sml-pic" src=" https://picsum.photos/200" class="hide">
+                <img id="med-pic" src=" https://picsum.photos/350" class="hide">
+                <img id="lrg-pic" src=" https://picsum.photos/500" class="hide">
             </div>
         </div>
         <script src="script.js"></script>

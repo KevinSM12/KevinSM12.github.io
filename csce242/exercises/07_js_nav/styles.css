@@ -1,7 +1,9 @@
 /* Structure */
-:root{
-  --ball-color:black;
+:root {
+  --ball-color:white;
+  --funds:0%;
 }
+
 body {
   background-color: azure;
 }
@@ -24,29 +26,12 @@ body {
   background-color: bisque;
 }
 
-.hide{
-  display: none;
-}
-
-.hide-sml{
-  display: none;
-}
-
-#ball{
-  background-color: var(--ball-color);
-  border-radius: 50px;
-  width: 50px;
-  height: 50px;
-  position: relative;
-}
-
 /* Main Navigation */
-
-#toggle-nav div{
+#toggle-nav div {
   width:25px;
-  height:5px;
-  background-color: black;
-  margin:6px 0
+  height:2px;
+  background-color:black;
+  margin:6px 0;
 }
 
 #main-nav ul {
@@ -79,6 +64,38 @@ h1 {
   text-align: center;
 }
 
+.error {
+  color:red;
+}
+
+/* ball */
+#ball {
+  width:50px;
+  height:50px;
+  border-radius:25px;
+  background-color:var(--ball-color);
+  border:1px solid gray;
+  position:relative;
+}
+
+/* Thermometer */
+#funds-thermometer {
+  border: 1px solid gray;
+  width:20px;
+  height:100px;
+  /*background: linear-gradient(45deg, red 15%, orange 30%, yellow 50%, green 75%, blue 100%);*/
+  background:linear-gradient(0deg, red 0% var(--funds), white var(--funds) 100%);
+}
+
+/* Visibility */
+.hidden {
+  display:none;
+}
+
+.hidden-small {
+  display:none;
+}
+
 /* Larger Resolutions */
 
 @media only screen and (min-width: 600px) {
@@ -88,10 +105,12 @@ h1 {
   .columns {
     display: flex;
   }
-  #toggle-nav{
-    display: none;
+
+  #toggle-nav {
+    display:none;
   }
-  .hide-sml{
-    display: flex;
+
+  .hidden-small {
+    display:flex;
   }
 }
