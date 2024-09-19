@@ -78,11 +78,7 @@ body{
     list-style-type: none;
 }
 
-#down-arrow{
-    display:block;
-    margin-left:30px;
-}
-#up-arrow{
+#arrow{
     margin-left:30px;
 }
 
@@ -131,8 +127,5 @@ body{
     }
     #down-arrow{
         display:none;
-    }
-    #nav-items{
-        text-align:center;
     }
 }

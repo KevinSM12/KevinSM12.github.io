@@ -1,14 +1,16 @@
 //author: Kevin Snyder-Mounts
 
+const arrow = document.getElementById("arrow");
 document.querySelector("#toggle-nav").onclick = ()=>{
-    document.querySelector("#nav-items").classList.toggle("hide-sml");
-    document.getElementById("down-arrow").classList.toggle("hide");
-    document.getElementById("up-arrow").classList.toggle("hide-sml");
+    if(document.getElementById("nav-items").contains("hide-sml")){
+        arrow.innerHTML = "&#8593;";
+        document.querySelector("#nav-items").classList.toggle("hide-sml");
+    }
 }; 
 
 document.getElementById("main-slider").oninput = ()=>{
     let val = document.getElementById("main-slider").value;
-    document.getElementById("color-slider").style.backgroundColor = rgb(val,0,0);
+    document.getElementById("color-slider").style.backgroundColor = 'rgb(val,0,0)';
 };
 
 const color = document.getElementById("color-slider");
@@ -27,4 +29,11 @@ document.getElementById("exercise-1").onclick = ()=>{
     }else if(!pic.classList.contains("hide")){
         pic.classList.add("hide");
     }
+};
+
+const smlbtn = document.getElementById("sml");
+const medbtn = document.getElementById("med");
+const lrgbtn = document.getElementById("lrg");
+document.getElementById("pic-choose").onclick = (event)=>{
+         
 };
