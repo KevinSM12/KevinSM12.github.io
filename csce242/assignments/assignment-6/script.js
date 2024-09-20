@@ -37,17 +37,38 @@ document.getElementById("exercise-1").onclick = ()=>{
     }
 };
 
-const smlbtn = document.getElementById("sml");
-const medbtn = document.getElementById("med");
-const lrgbtn = document.getElementById("lrg");
-smlbtn.onclick||medbtn.onclick||lrgbtn.onclick = (event)=>{
-    if(event.target.innerHTML = "Small"){
-        document.getElementById("sml-pic").classList.toggle("hide");
+const smlPic = document.getElementById("sml-pic");
+const medPic = document.getElementById("med-pic");
+const lrgPic = document.getElementById("lrg-pic");
+const somefunction = (e)=>{
+    if(e.target.innerHTML == "Small"){
+        smlPic.classList.remove("hide");
+        if(!medPic.classList.contains("hide")){
+            medPic.classList.add("hide");
+        }
+        if(!lrgPic.classList.contains("hide")){
+            lrgPic.classList.add("hide");
+        }
     }
-    if(event.target.innerHTML = "Medium"){
-        document.getElementById("med-pic").classList.toggle("hide");
+    if(e.target.innerHTML == "Medium"){
+        medPic.classList.remove("hide");
+        if(!smlPic.classList.contains("hide")){
+            smlPic.classList.add("hide");
+        }
+        if(!lrgPic.classList.contains("hide")){
+            lrgPic.classList.add("hide");
+        }
     }
-    if(event.target.innerHTML = "Large"){
-        document.getElementById("lrg-pic").classList.toggle("hide");
-    }          
+    if(e.target.innerHTML == "Large"){
+        lrgPic.classList.remove("hide");
+        if(!medPic.classList.contains("hide")){
+            medPic.classList.add("hide");
+        }
+        if(!smlPic.classList.contains("hide")){
+            smlPic.classList.add("hide");
+        }
+    }       
 };
+document.getElementById("sml").onclick = somefunction;
+document.getElementById("med").onclick = somefunction;
+document.getElementById("lrg").onclick = somefunction;
