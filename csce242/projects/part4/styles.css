@@ -267,6 +267,20 @@ hr{
 
 /*Navigation*/
 
+#toggle-nav{
+    background-color:var(--white);
+    border:var(--teri) solid 1px;
+    width:40px;
+}
+
+#toggle-nav div{
+    background-color:var(--black);
+    width:25px;
+    height:2px;
+    margin:6px 0;
+    margin-left:7.5px;
+}
+
 #main-nav{
     width:100%;
 }
@@ -312,7 +326,6 @@ hr{
         margin-left:15%;
         margin-right:15%;
     }
-
     #leagues a{
         text-align:center;
         background-color:var(--teri);
@@ -322,6 +335,7 @@ hr{
         border-radius: 20px;
         text-decoration:none;
     }
-    
-    
+    .hide-big{
+        display:none;
+    }
 }
