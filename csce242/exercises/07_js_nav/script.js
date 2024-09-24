@@ -64,3 +64,18 @@ document.getElementById("btn-donate").onclick = () => {
     console.log(percentGoal + "%");
     document.querySelector(":root").style.setProperty("--funds", percentGoal + "%");
 }
+
+/*for loop*/
+document.getElementById("btn-loop").onclick = ()=>{
+    const ul = document.getElementById("numbers");
+    
+    for(let i=0;i<10;i++){
+        const li = document.createElement("li");4
+        li.innerHTML = i+1;
+        ul.append(li);
+        li.setAttribute("id","li"+i);
+        li.onclick = ()=>{
+            console.log(`i is currently ${i}`);
+        }
+    }
+};
