@@ -46,10 +46,6 @@ body{
     margin-left:10px;
 }
 
-#error-msg{
-    color:red;
-}
-
 #drawing-area{
     background-color: var(--black);
     width:250px;

@@ -147,7 +147,6 @@ toyPrices["slide"]=34.23;
 toyPrices["ken"]=20.00;
 toyPrices["bike"]=7.54;
 
-const listPrices = document.getElementById("list-prices");
 const table = document.getElementById("price-table");
 
 const createTd = (data)=>{
