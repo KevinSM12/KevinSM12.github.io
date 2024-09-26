@@ -3,8 +3,8 @@
     --sec:#B22C37;
     --teri:#C05755;
     --white:white;
-    --grey:#765D60;
-    --black:#262626;
+    --grey:grey;
+    --black:#000000;
 }
 
 /*Structure*/
@@ -105,18 +105,18 @@ hr{
     margin-right:5px;
 }
 
-#records img{
-    margin-left:5%;
-    margin-right:15%;
+#record-section{
+    background-color: var(--black);
+}
+
+#record-section p{
+    color:var(--white);
+}
+
+#record-section img{
+    margin-left:auto;
+    margin-right:auto;
     height: 200px;
-}
-
-#records h4{
-    color:var(--black);
-}
-
-#records p{
-    color:var(--black);
 }
 
 #record-content{

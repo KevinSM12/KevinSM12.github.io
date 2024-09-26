@@ -79,3 +79,93 @@ document.getElementById("btn-loop").onclick = ()=>{
         }
     }
 };
+
+document.getElementById("go-btn").onclick = ()=>{
+
+    const min = parseInt(document.getElementById("start-txt").value);
+    console.log(min);
+    const mat = parseInt(document.getElementById("end-txt").value);
+    console.log(mat);
+
+    document.getElementById("numbers-display").innerHTML = "";
+    for(let i=0;i<Math.abs(mat-min)+1;i++){
+        const li = document.createElement("li");
+        if(min<mat){
+            li.innerHTML = min+i;
+            document.getElementById("numbers-display").append(li);
+            li.setAttribute("id","li"+i);
+        }else{
+            li.innerHTML = min-i;
+            document.getElementById("numbers-display").append(li);
+            li.setAttribute("id","li"+i);
+        }
+    }
+}
+
+let counter = 0;
+let updateCount;
+
+document.getElementById("btn-count").onclick = (e)=>{
+    const count = document.getElementById("count");
+    if(e.target.innerHTML == "Start"){
+        e.target.innerHTML = "Stop";
+        updateCount = setInterval(()=>{
+            counter++;
+            count.innerHTML = counter;
+        },1000);
+    }else{
+        e.target.innerHTML = "Start"
+        clearInterval(updateCount);
+    }
+}
+
+/*Js Arrays*/
+let toys = ["drum","ball","rope","ballon","tire"];
+
+toys.forEach((toy)=>{
+    const p =document.createElement("p")
+    p.innerHTML = toy;
+    document.getElementById("list").append(p);  
+});
+
+/*shows you can get the index if needed
+toys.forEach((toy, i)=>{
+    console.log(i+toy);    
+});
+
+old way of iterating through a list
+for(let i=0;i<toys.length;i++){
+    console.log(toys[i]);
+}
+*/
+
+/*Santas expenses*/
+let toyPrices = [];
+toyPrices["barbie"]=7.54;
+toyPrices["doll house"]=86.23;
+toyPrices["slide"]=34.23;
+toyPrices["ken"]=20.00;
+toyPrices["bike"]=7.54;
+
+const listPrices = document.getElementById("list-prices");
+const table = document.getElementById("price-table");
+
+const createTd = (data)=>{
+    const td = document.createElement("td");
+    td.innerHTML = data;
+    return td;
+}
+
+/* associative array*/
+for(let toy in toyPrices){
+    let tr = document.createElement("tr");
+    const td1 = createTd(toy);
+    const td2 = createTd(toyPrices[toy]);
+    tr.append(td1);
+    tr.append(td2);
+
+    tr.onclick = ()=>{
+        console.log(toy+": "+toyPrices[toy]);
+    }
+}
+

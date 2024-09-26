@@ -3,6 +3,7 @@ document.getElementById("draw-btn").onclick = ()=>{
     const starArea = document.getElementById("drawing-area");
     const left = 535;
     const top = 215;
+    startArea.innerHTML = "";
     if(numStars<0){
         document.getElementById("error-msg").innerHTML = "*Input invalid";
     }else{
