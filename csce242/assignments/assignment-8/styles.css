@@ -1,0 +1,51 @@
+:root{
+    --pri: rgb(0, 145, 255);
+    --sec:rgb(182, 0, 182);
+    --ter:black;
+}
+
+/*Structure*/
+
+body{
+    background-color: var(--pri);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#content{
+    text-align:center;
+    padding:30px;
+    height:100%;
+}
+
+#content h1{
+    color:var(--sec);
+}
+
+#content h4{
+    color:var(--ter);
+}
+
+#desc{
+    background-color: var(--sec);
+    border: var(--ter) solid 3px;
+}
+
+#img-array{
+    background-color: var(--sec);
+    border: var(--ter) solid 3px;
+}
+
+#credit{
+    background-color: var(--sec);
+    border: var(--ter) solid 3px;
+    text-align:left;
+}
+
+#credit section{
+    margin-left:10px;
+}
+
+#credit a{
+    text-decoration:none;
+    color:var(--ter);
+}

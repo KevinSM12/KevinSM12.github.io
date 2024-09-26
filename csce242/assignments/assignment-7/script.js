@@ -2,8 +2,7 @@ const error = document.getElementById("error-msg");
 document.getElementById("draw-btn").onclick = ()=>{
     const numStars = document.getElementById("num-stars").value;
     const starArea = document.getElementById("drawing-area");
-    const left = 535;
-    const top = 215;
+    starArea.innerHTML = "";
     if(numStars<0){
         error.innerHTML = "*Input invalid";
         error.style.color = "red";
@@ -14,12 +13,10 @@ document.getElementById("draw-btn").onclick = ()=>{
             starArea.append(star);
             star.classList.add("one");
             star.style.position = "absolute";
-            star.style.left = left+"px";
-            star.style.top = top+"px";
             const width = getRandomInt(240);
             const height = getRandomInt(220);
-            star.style.left = left+width+"px";
-            star.style.top= top+height+"px";
+            star.style.left = width+"px";
+            star.style.top= height+"px";
             star.onclick = ()=>{
                 error.style.color = "black";
                 error.innerHTML = `I am star number ${i+1}`;
