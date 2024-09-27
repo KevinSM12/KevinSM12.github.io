@@ -49,3 +49,12 @@ body{
     text-decoration:none;
     color:var(--ter);
 }
+
+.hide{
+    display:none;
+}
+
+#img-table{
+    margin-left:auto;
+    margin-right:auto;
+}
