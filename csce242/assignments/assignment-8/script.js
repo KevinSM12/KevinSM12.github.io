@@ -1,58 +1,52 @@
 const createTd = (data)=>{
     const td = document.createElement("td");
-    td.innerHTML = data;
+    td.append(data);
     return td;
 }
-
-const birthday = document.createElement('img');
-const clown = document.createElement('img');
-const rain = document.createElement('img');
-const read = document.createElement('img');
-const shovel = document.createElement('img');
-const work = document.createElement('img');
-
-birthday.src = "images/birthday.jpg";
-clown.src = "images/clown.jpg";
-rain.src = "images/rain.jpg";
-read.src = "images/read.jpg";
-shovel.src = "images/shovel.jpg";
-work.src = "images/work.jpg";
 
 const birthdayInfo = []
 birthdayInfo[0]= "birthday";
 birthdayInfo[1]= "Happy Birthday! It's the best/worst day of the year";
+birthdayInfo[2]="images/birthday.jpg";
 const clownInfo = []
 clownInfo[0]="clown";
 clownInfo[1]= "Clowns are supposed to be funny and entertaining. i find them really creepy.";
+clownInfo[2]="images/clown.jpg";
 const rainInfo = []
 rainInfo[0]= "rain";
 rainInfo[1]= "Rain rain go away come again another day. Idk I like the rain though.";
+rainInfo[2]="images/rain.jpg";
 const readInfo = []
 readInfo[0]= "read";
 readInfo[1]= "Reading can be fun a relaxing or intense and scary. All around not a fan.";
+readInfo[2]="images/read.jpg";
 const shovelInfo = []
 shovelInfo[0]= "shovel";
 shovelInfo[1]= "A promising young chap that has a goal in mind and the tool to do it!";
+shovelInfo[2]="images/shovel.jpg";
 const workInfo = []
 workInfo[0]= "work";
 workInfo[1]= "Nobody really likes work but everybody has to do it. Kinda sucks doesn't it!";
+workInfo[2]="images/work.jpg";
 
 let imgs = [];
-imgs[birthday]=birthdayInfo;
-imgs[clown]=clownInfo;
-imgs[rain]=rainInfo;
-imgs[read]=readInfo;
-imgs[shovel]= shovelInfo;
-imgs[work]=workInfo;
+imgs["birthday"]=birthdayInfo;
+imgs["clown"]=clownInfo;
+imgs["rain"]=rainInfo;
+imgs["read"]=readInfo;
+imgs["shovel"]= shovelInfo;
+imgs["work"]=workInfo;
 
 const table = document.getElementById("img-table")
 
 console.log(imgs);
 
 for(let img in imgs){
+    let image = document.createElement("img")
+    image.src=imgs[img][2];
     let tr = document.createElement("tr");
     table.append(tr);
-    const td = createTd(img);
+    const td = createTd(image);
     tr.appendChild(td);
     td.onclick = ()=>{
         document.getElementById("title").innerHTML = imgs[img][0];
