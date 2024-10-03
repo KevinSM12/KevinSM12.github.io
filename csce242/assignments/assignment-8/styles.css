@@ -35,6 +35,11 @@ body{
     border: var(--ter) solid 3px;
 }
 
+img{
+    width:auto;
+    height: auto;
+}
+
 #credit{
     background-color: var(--sec);
     border: var(--ter) solid 3px;

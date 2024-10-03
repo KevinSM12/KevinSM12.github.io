@@ -1,8 +1,4 @@
-const createTd = (data)=>{
-    const td = document.createElement("td");
-    td.append(data);
-    return td;
-}
+
 
 const birthdayInfo = []
 birthdayInfo[0]= "birthday";
@@ -40,16 +36,20 @@ imgs["work"]=workInfo;
 const table = document.getElementById("img-table")
 
 console.log(imgs);
-
+let count=0;
 for(let img in imgs){
-    let image = document.createElement("img")
+    if(count % 3 === 0){
+        var tr = document.createElement("tr");
+        table.append(tr);
+    }   
+    let image = document.createElement("img");
+    const data = document.createElement("td");
     image.src=imgs[img][2];
-    let tr = document.createElement("tr");
-    table.append(tr);
-    const td = createTd(image);
-    tr.appendChild(td);
-    td.onclick = ()=>{
+    data.append(image);
+    tr.append(data);
+    data.onclick = ()=>{
         document.getElementById("title").innerHTML = imgs[img][0];
         document.getElementById("desc-txt").innerHTML = imgs[img][1];
     }
+    count++;
 }
