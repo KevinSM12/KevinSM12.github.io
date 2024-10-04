@@ -27,6 +27,15 @@ body{
     width:100%;
 }
 
+img{
+    width:300px;
+    height:300px;
+}
+
+.hidden{
+    display:none;
+}
+
 @media only screen and (min-width: 600px) {
 
     .columns {
