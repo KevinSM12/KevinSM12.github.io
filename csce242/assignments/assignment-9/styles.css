@@ -1,0 +1,40 @@
+:root{
+    --pri: rgb(0, 145, 255);
+    --sec:rgb(182, 0, 182);
+    --ter:black;
+}
+
+/*Structure*/
+
+body{
+    background-color: var(--pri);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.bird {
+    background-color: var(--sec);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+}
+
+#content{
+    width:100%;
+}
+
+#bird-list{
+    width:100%;
+}
+
+@media only screen and (min-width: 600px) {
+
+    .columns {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: right;
+    }
+    .brid{
+        flex:1;
+    }
+}
