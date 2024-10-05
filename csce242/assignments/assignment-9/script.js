@@ -11,28 +11,22 @@ class Bird {
     get item(){
         const section = document.createElement("section");
         section.classList.add("bird");
-        const h3 = document.createElement("h3");
-        h3.innerHTML = this.name;
-        section.append(h3);
-        const columnsDiv = document.createElement("div");
-        columnsDiv.classList.add("columns");
-        section.append(columnsDiv);
-        const firstColumn = document.createElement("div");
-        columnsDiv.append(firstColumn);
+        section.append(this.h3(this.name));
+        section.append(this.picture(this.pic));
+        
+
         const popOut = document.createElement("div");
-
-        firstColumn.append(this.picture(this.pic));
-
         popOut.classList.add("hidden");
+        popOut.append(this.h2(this.name));
+        popOut.append(this.picture(this.pic));
         popOut.append(this.paragraph("Habitat", this.habitat));
         popOut.append(this.paragraph("Life span", this.lifeSpan));
         popOut.append(this.paragraph("Diet", this.food));
         popOut.append(this.paragraph("Size", this.size));
 
         section.onclick = () => {
-            secondColumn.classList.toggle("hidden");
+            popOut.classList.toggle("hidden");
         };
-
         return section;
     }
 
@@ -40,6 +34,18 @@ class Bird {
         const pic = document.createElement("img");
         pic.src = "images/" + info;
         return pic;
+    }
+
+    h2(info){
+        const h2 = document.createElement("h2");
+        h2.innerHTML = info;
+        return h2;
+    }
+
+    h3(info){
+        const h3 = document.createElement("h3");
+        h3.innerHTML = info;
+        return h3;
     }
 
     paragraph(title, info){

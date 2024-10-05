@@ -21,10 +21,15 @@ body{
 
 #content{
     width:100%;
+    text-align: center;
 }
 
 #bird-list{
     width:100%;
+}
+
+h2{
+    color:var(--sec)
 }
 
 img{
@@ -36,12 +41,16 @@ img{
     display:none;
 }
 
+.popout{
+    background-color: var(--sec);
+    text-align: center;
+}
+
 @media only screen and (min-width: 600px) {
 
     .columns {
         display: flex;
         flex-wrap: wrap;
-        align-items: right;
     }
     .brid{
         flex:1;
