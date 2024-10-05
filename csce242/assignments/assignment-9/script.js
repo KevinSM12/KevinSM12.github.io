@@ -14,8 +14,10 @@ class Bird {
         section.append(this.h3(this.name));
         section.append(this.picture(this.pic));
         
+        
 
         const popOut = document.createElement("div");
+        section.append(popOut);
         popOut.classList.add("hidden");
         popOut.append(this.h2(this.name));
         popOut.append(this.picture(this.pic));
