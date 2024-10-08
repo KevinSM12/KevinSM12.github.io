@@ -22,7 +22,7 @@ const getFlavor = (flavor)=>{
     const section = document.createElement("section");
     section.classList.add("container");
     const img = document.createElement("img");
-    img.src = `https://portiaportia.github.io/json/images/ice-creams/${flavor.image}`;
+    img.src = "https://portiaportia.github.io/json/images/ice-creams/"+flavor.image;
     section.append(img);
 
     const title = document.createElement("section");
