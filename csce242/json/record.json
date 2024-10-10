@@ -1,0 +1,42 @@
+[
+    {
+        "Most_Points_All-Time_NBA":[
+            {
+                "record_id":"1",
+                "record_title":"Most Points All-Time",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-pts-img.jpg",
+                "record_description":"This record is held by the player has acrewd the most points total throughout their career. This record has always been a part of basketball but was only offcial tracked stating in 1970.",
+
+                "record":[
+                    {
+                        "record-holder":"Lebron James",
+                        "record-holder-image":"images/LeBron-James.jpg",
+                        "record-holder-desc":"LeBron James made history in 2023 by surpassing Kareem Abdul-Jabbars long-standing record for the most points in NBA history, a feat that had remained untouched for nearly 30 years. His achievement is a testament to his unparalleled versatility and ability to dominate the game over two decades. Known for his athleticism, basketball IQ, and leadership on the court, LeBron has consistently evolved his playstyle to adapt to the ever-changing dynamics of the league. Whether it was his explosive scoring, playmaking, or defensive impact, LeBrons all-around game made him one of the most complete players in basketball history. Despite reaching this monumental milestone, LeBron remains motivated to continue building his legacy and increasing the scoring gap between himself and future contenders. His longevity and sustained excellence, even after 20 years in the league, suggest that he is far from finished. As he continues to compete at an elite level with no signs of slowing down, LeBron aims to push the boundaries of what is possible in professional basketball, ensuring that his record, like Kareem's before him, may stand for many years to come.",
+                        "prev-record-holder":"Kareen Abdul-Jabar",
+                        "prev-record-holder-image":"images/kareem-abdul-jabar.jpg",
+                        "prev-record-holder-desc":"Kareem Abdul-Jabbar, renowned for his signature skyhook shot, became the NBAs all-time leading scorer in 1984, surpassing Wilt Chamberlain's record. His dominance on the court was unmatched, as he maintained this scoring title for nearly four decades. Over his 20-year career, Kareem showcased remarkable consistency and longevity, becoming a central figure for both the Milwaukee Bucks and the Los Angeles Lakers. His ability to evolve his game and remain a top scorer into his late 30s speaks to his work ethic and basketball intelligence. Beyond scoring, Kareem's impact was felt in all facets of the game. He was a complete player, earning six MVP awards, the most by any player in NBA history, and leading his teams to six NBA championships. His leadership, defensive prowess, and playmaking abilities were pivotal in the success of both the Bucks, where he won his first championship, and the Lakers, where he added five more titles. Off the court, Kareem was also a trailblazer, using his platform to advocate for civil rights and social justice, further solidifying his legacy as not just a basketball legend but a cultural icon."
+                    }
+                ]
+            }
+        ],
+        "Most_Steals_All-Time_NBA":[
+            {
+                "record_id":"2",
+                "record_title":"Most Steals All-Time",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-stls-img.jpg",
+                "record_description":"This record is held by the player with the most steals in their career. THis player is the shiftiest and has gained their team mnay a turnover in their day.",
+
+                "record":[
+                    {
+                        "record-holder":"Lebron James",
+                        "record-holder-image":"images/LeBron-James.jpg",
+                        "record-holder-desc":"LeBron James made history in 2023 by surpassing Kareem Abdul-Jabbars long-standing record for the most points in NBA history, a feat that had remained untouched for nearly 30 years. His achievement is a testament to his unparalleled versatility and ability to dominate the game over two decades. Known for his athleticism, basketball IQ, and leadership on the court, LeBron has consistently evolved his playstyle to adapt to the ever-changing dynamics of the league. Whether it was his explosive scoring, playmaking, or defensive impact, LeBrons all-around game made him one of the most complete players in basketball history. Despite reaching this monumental milestone, LeBron remains motivated to continue building his legacy and increasing the scoring gap between himself and future contenders. His longevity and sustained excellence, even after 20 years in the league, suggest that he is far from finished. As he continues to compete at an elite level with no signs of slowing down, LeBron aims to push the boundaries of what is possible in professional basketball, ensuring that his record, like Kareem's before him, may stand for many years to come.",
+                        "prev-record-holder":"Kareen Abdul-Jabar",
+                        "prev-record-holder-image":"images/kareem-abdul-jabar.jpg",
+                        "prev-record-holder-desc":"Kareem Abdul-Jabbar, renowned for his signature skyhook shot, became the NBAs all-time leading scorer in 1984, surpassing Wilt Chamberlain's record. His dominance on the court was unmatched, as he maintained this scoring title for nearly four decades. Over his 20-year career, Kareem showcased remarkable consistency and longevity, becoming a central figure for both the Milwaukee Bucks and the Los Angeles Lakers. His ability to evolve his game and remain a top scorer into his late 30s speaks to his work ethic and basketball intelligence. Beyond scoring, Kareem's impact was felt in all facets of the game. He was a complete player, earning six MVP awards, the most by any player in NBA history, and leading his teams to six NBA championships. His leadership, defensive prowess, and playmaking abilities were pivotal in the success of both the Bucks, where he won his first championship, and the Lakers, where he added five more titles. Off the court, Kareem was also a trailblazer, using his platform to advocate for civil rights and social justice, further solidifying his legacy as not just a basketball legend but a cultural icon."
+                    }
+                ]
+            }
+        ]
+    }
+]
