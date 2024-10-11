@@ -2,9 +2,9 @@
     {
         "Most_Points_All-Time_NBA":[
             {
-                "record_id":"1",
+                "record_id":"01",
                 "record_title":"Most Points All-Time",
-                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-pts-img.jpg",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-pts-img-nba.jpg",
                 "record_description":"This record is held by the player has acrewd the most points total throughout their career. This record has always been a part of basketball but was only offcial tracked stating in 1970.",
 
                 "record":[
@@ -21,9 +21,9 @@
         ],
         "Most_Steals_All-Time_NBA":[
             {
-                "record_id":"2",
+                "record_id":"02",
                 "record_title":"Most Steals All-Time",
-                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-stls-img.jpg",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-stls-img-nba.jpg",
                 "record_description":"This record is held by the player with the most steals in their career. THis player is the shiftiest and has gained their team mnay a turnover in their day.",
 
                 "record":[
@@ -40,9 +40,9 @@
         ],
         "Most_Blocks_All-Time_NBA":[
             {
-                "record_id":"3",
+                "record_id":"03",
                 "record_title":"Most Blocks All-Time",
-                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-blks-img.jpg",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-blks-img-nba.jpg",
                 "record_description":"This record is held by the player who has acrewed the most blocks throgout their career. Blocking is one of the hardes parts of basketball as you have to predict where the offense is going to shoot or dunk.",
                 "record":[
                     {
@@ -58,9 +58,9 @@
         ],
         "Most_TDs_All-Time_NBA":[
             {
-                "record_id":"4",
+                "record_id":"04",
                 "record_title":"Most TDs All-Time",
-                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-TD-img.jpg",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-TD-img-nba.jpg",
                 "record_description":"This record encompasses the player that has attained the most triple double games in their career. This means that they got double digits in three different stats througout the course of the game.",
                 "record":[
                     {
@@ -76,9 +76,9 @@
         ],
         "Most_Rebounds_All-Time_NBA":[
             {
-                "record_id":"5",
+                "record_id":"05",
                 "record_title":"Most Rebounds All-Time",
-                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-rebnd-img.jpg",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-rebnd-img-nba.jpg",
                 "record_description":"This record shows the player with the most amount of rebounds in their career. Some of the best defenders in the history of the sport have battled for this record.",
                 "record":[
                     {
@@ -94,9 +94,119 @@
         ],
         "Most_Assits_All-Time_NBA":[
             {
-                "record_id":"6",
+                "record_id":"06",
                 "record_title":"Most Assists All-Time",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-ass-img-nba.jpg",
+                "record_description":"This record is given to the player with the most assists throughout their career. This player is one of the best teamates of all time as they give up the glory of scoring to help their team.",
+                "record":[
+                    {
+                        "record-holder":"John Stockton - 15,806",
+                        "record-holder-image":"images/john-stockton.jpg",
+                        "record-holder-desc":"John Stockton holds the NBA's all-time record for assists, an extraordinary achievement that highlights his status as the greatest playmaker in basketball history. Over his 19-year career, Stockton dished out an unparalleled 15,806 assists, a record that stands far above any other player. Known for his pinpoint passing and incredible basketball IQ, Stockton had an uncanny ability to find his teammates in perfect scoring positions, particularly his long-time pick-and-roll partner Karl Malone. His consistency, durability, and leadership helped the Utah Jazz become perennial contenders. Stockton's assist record, combined with his steals record, firmly establishes him as one of the most elite and unselfish point guards to ever play the game.",
+                        "prev-record-holder":"Jason Kidd - 12,091",
+                        "prev-record-holder-image":"images/jason-kidd.jpg",
+                        "prev-record-holder-desc":"Jason Kidd ranks second in NBA history for all-time assists, with an impressive 12,091 assists over his 19-year career. Known for his extraordinary court vision and basketball IQ, Kidd was a masterful playmaker who could orchestrate an offense with precision. His ability to find open teammates and make difficult passes look effortless made him one of the greatest point guards in the game’s history. Kidd’s leadership and passing skills were key to the success of every team he played for, and his ranking as second in assists cements his legacy as one of the NBA’s most prolific and unselfish floor generals."
+                    }
+                ]
+            }
+        ],
+        "Most_Points_All-Time_WNBA":[
+            {
+                "record_id":"07",
+                "record_title":"Most Points All-Time",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-pts-img-wnba.jpg",
+                "record_description":"This record is held by the player has acrewd the most points total throughout their career. This record has always been a part of basketball but was only offcial tracked stating in 1970.",
+
+                "record":[
+                    {
+                        "record-holder":"Diana Taurasi - 10,646",
+                        "record-holder-image":"images/diana-taurasi.jpg",
+                        "record-holder-desc":"Diana Taurasi, often hailed as one of the greatest basketball players of all time, holds the record for the most points scored in WNBA history. Her incredible scoring ability, combined with her versatility on the court, has allowed her to accumulate over 9,000 points throughout her career. Taurasi's journey to this milestone has been marked by numerous accolades, including multiple championships and MVP awards, showcasing her skill and determination. Her record not only highlights her individual talent but also her significant impact on the game, inspiring countless players and fans alike. As she continues to play, Taurasi’s legacy only grows, solidifying her place in WNBA history.",
+                        "prev-record-holder":"Tina Charles - 7,696",
+                        "prev-record-holder-image":"images/tina-charles.jpg",
+                        "prev-record-holder-desc":"Tina Charles is a standout figure in the WNBA, holding the record for the second most points scored in league history. With her powerful presence in the paint and exceptional scoring prowess, Charles has consistently demonstrated her ability to dominate games throughout her career. Accumulating over 7,000 points, she has earned multiple All-Star selections and MVP honors, reflecting her remarkable talent and hard work. Known for her versatility as both a forward and center, Charles has not only contributed to her teams' success but has also played a crucial role in elevating the visibility of women's basketball. As she continues to compete, her legacy as one of the league's all-time greats is firmly established, inspiring future generations of players."
+                    }
+                ]
+            }
+        ],
+        "Most_Steals_All-Time_WNBA":[
+            {
+                "record_id":"08",
+                "record_title":"Most Steals All-Time",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-stls-img-wnba.jpg",
+                "record_description":"This record is held by the player with the most steals in their career. THis player is the shiftiest and has gained their team mnay a turnover in their day.",
+
+                "record":[
+                    {
+                        "record-holder":"Tamika Catchings - 1,074",
+                        "record-holder-image":"images/tamika-catchings.jpg",
+                        "record-holder-desc":"Tamika Catchings, a legendary figure in women's basketball, holds the all-time record for the most steals in WNBA history, a testament to her incredible defensive prowess and relentless work ethic. Over her illustrious career, which spanned from 2002 to 2016 with the Indiana Fever, Catchings amassed a staggering 1,050 steals, a feat that highlights her ability to anticipate plays and disrupt opposing offenses. Her defensive skills, combined with her leadership and versatility on the court, helped the Fever secure a WNBA championship in 2012 and earned her numerous accolades, including five Defensive Player of the Year awards. Catchings' record for steals not only showcases her exceptional talent but also cements her legacy as one of the greatest players in WNBA history, inspiring future generations of athletes to excel both defensively and offensively.",
+                        "prev-record-holder":"Ticha Penicheiro - 764",
+                        "prev-record-holder-image":"images/ticha-penicheiro.jpg",
+                        "prev-record-holder-desc":"Ticha Penicheiro is renowned for her defensive prowess, holding the record for the second most steals in WNBA history. Known for her quick hands and exceptional anticipation, Penicheiro was a relentless defender who could disrupt opposing offenses with her ability to read the game. Throughout her illustrious career, she racked up over 700 steals, showcasing her skill in turning defense into offense. Her tenacity and basketball IQ not only made her a formidable presence on the court but also set a standard for defensive excellence in the league. Penicheiro's impact on the game is felt in her numerous accolades and the inspiration she provides to aspiring players, proving that defense is just as crucial as scoring in basketball."
+                    }
+                ]
+            }
+        ],
+        "Most_Blocks_All-Time_WNBA":[
+            {
+                "record_id":"09",
+                "record_title":"Most Blocks All-Time",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-blks-img-wnba.jpg",
+                "record_description":"This record is held by the player who has acrewed the most blocks throgout their career. Blocking is one of the hardes parts of basketball as you have to predict where the offense is going to shoot or dunk.",
+                "record":[
+                    {
+                        "record-holder":"Margo Dydek - 877",
+                        "record-holder-image":"images/margo-dydek.jpg",
+                        "record-holder-desc":"Margo Dydek, a dominant force in women's basketball, holds the WNBA record for the most career blocks, solidifying her reputation as one of the league's greatest defensive players. Over her career from 1998 to 2008, Dydek recorded an astonishing 877 blocks, a testament to her incredible height of 7 feet 2 inches and her remarkable timing and anticipation on the court. Her shot-blocking ability not only deterred opponents but also energized her teammates and fans alike. Dydek played the majority of her career with the Utah Starzz and the San Antonio Silver Stars, where she consistently showcased her defensive prowess. Her record for blocks highlights her impact on the game, emphasizing the importance of defense in achieving success. Margo Dydek's legacy as a shot-blocking icon continues to inspire future generations of players, reminding them of the crucial role defense plays in basketball.",
+                        "prev-record-holder":"Lisa Leslie - 822",
+                        "prev-record-holder-image":"images/lisa-leslie.jpg",
+                        "prev-record-holder-desc":"Lisa Leslie, a trailblazer in women's basketball, holds the record for the second most career blocks in WNBA history, a reflection of her exceptional defensive skills and dominance in the paint. Over her illustrious career from 1997 to 2009, Leslie recorded 877 blocks, showcasing her incredible height, athleticism, and timing that allowed her to effectively protect the rim. As a key player for the Los Angeles Sparks, she was known for her shot-blocking ability, which often shifted the momentum of games and frustrated opposing teams. Leslie's defensive prowess complemented her offensive talents, making her a versatile threat on the court. Her impressive block total not only highlights her individual achievements but also cements her legacy as one of the greatest players in WNBA history, inspiring future generations of athletes to excel in both offensive and defensive aspects of the game."
+                    }
+                ]
+            }
+        ],
+        "Most_TDs_All-Time_WNBA":[
+            {
+                "record_id":"10",
+                "record_title":"Most TDs All-Time",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-TD-img.jpg",
+                "record_description":"This record encompasses the player that has attained the most triple double games in their career. This means that they got double digits in three different stats througout the course of the game.",
+                "record":[
+                    {
+                        "record-holder":"Russell Westbrook - 199",
+                        "record-holder-image":"images/russell-westbrook.jpg",
+                        "record-holder-desc":"Russell Westbrook holds the NBA's all-time record for triple-doubles, solidifying his place as one of the most dynamic and versatile players in basketball history. With 198 triple-doubles (and counting) throughout his career, Westbrook surpassed Oscar Robertson’s long-standing record in 2021. Known for his relentless energy, explosive athleticism, and all-around impact, Westbrook consistently contributes in scoring, rebounding, and playmaking. His ability to fill the stat sheet across all categories redefined the triple-double, making it a regular feature of his game. Westbrook’s unique blend of speed, power, and competitive spirit has reshaped expectations for what a point guard can achieve, cementing his legacy as the ultimate triple-double king in NBA history.",
+                        "prev-record-holder":"Oascar Robertson - 181",
+                        "prev-record-holder-image":"images/oscar-robertson.jpg",
+                        "prev-record-holder-desc":"Oscar Robertson ranks second in NBA history for all-time triple-doubles, a testament to his exceptional all-around ability and versatility on the court. Nicknamed The Big O, Robertson recorded 181 triple-doubles over his illustrious 14-year career, a feat that once stood as the most in NBA history for decades. His ability to score, rebound, and facilitate the offense with equal prowess made him one of the most complete players the league has ever seen. Robertson was a trailblazer in showing the value of a well-rounded game, and his dominance as a triple-double machine helped redefine what it meant to be an elite point guard in the NBA."
+                    }
+                ]
+            }
+        ],
+        "Most_Rebounds_All-Time_WNBA":[
+            {
+                "record_id":"11",
+                "record_title":"Most Rebounds All-Time",
                 "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-rebnd-img.jpg",
+                "record_description":"This record shows the player with the most amount of rebounds in their career. Some of the best defenders in the history of the sport have battled for this record.",
+                "record":[
+                    {
+                        "record-holder":"Wilt Chamberlin - 23,924",
+                        "record-holder-image":"images/wilt-chamberlin.jpg",
+                        "record-holder-desc":"Wilt Chamberlain holds the NBA's all-time record for rebounds, a testament to his unmatched dominance and physicality on the court. Over his 14-year career, Chamberlain grabbed an astonishing 23,924 rebounds, a record that has stood the test of time. Known for his size, strength, and athleticism, Chamberlain controlled the glass like no other player, often pulling down rebounds at will against multiple defenders. His ability to dominate both ends of the court, particularly in securing defensive and offensive boards, made him a force of nature. Chamberlain’s rebounding record, along with his legendary scoring feats, solidified his status as one of the greatest and most unstoppable players in NBA history.",
+                        "prev-record-holder":"Bill Russell - 21,620",
+                        "prev-record-holder-image":"images/bill-russell.jpg",
+                        "prev-record-holder-desc":"Bill Russell ranks second in NBA history for all-time rebounds, with a total of 21,620 over his legendary 13-year career. Known for his exceptional defensive skills and tenacity, Russell was a master of positioning and timing, which allowed him to dominate the boards despite not being the biggest player on the court. His ability to grab crucial rebounds, particularly in high-pressure situations, was instrumental in leading the Boston Celtics to 11 NBA championships. Russell’s rebounding prowess, combined with his leadership and defensive brilliance, made him one of the most impactful and influential players in the history of the game."
+                    }
+                ]
+            }
+        ],
+        "Most_Assits_All-Time_WNBA":[
+            {
+                "record_id":"12",
+                "record_title":"Most Assists All-Time",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-ass-img.jpg",
                 "record_description":"This record is given to the player with the most assists throughout their career. This player is one of the best teamates of all time as they give up the glory of scoring to help their team.",
                 "record":[
                     {
