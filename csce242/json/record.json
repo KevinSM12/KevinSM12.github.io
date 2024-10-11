@@ -9,10 +9,10 @@
 
                 "record":[
                     {
-                        "record-holder":"Lebron James",
+                        "record-holder":"Lebron James - 40,474",
                         "record-holder-image":"images/LeBron-James.jpg",
                         "record-holder-desc":"LeBron James made history in 2023 by surpassing Kareem Abdul-Jabbars long-standing record for the most points in NBA history, a feat that had remained untouched for nearly 30 years. His achievement is a testament to his unparalleled versatility and ability to dominate the game over two decades. Known for his athleticism, basketball IQ, and leadership on the court, LeBron has consistently evolved his playstyle to adapt to the ever-changing dynamics of the league. Whether it was his explosive scoring, playmaking, or defensive impact, LeBrons all-around game made him one of the most complete players in basketball history. Despite reaching this monumental milestone, LeBron remains motivated to continue building his legacy and increasing the scoring gap between himself and future contenders. His longevity and sustained excellence, even after 20 years in the league, suggest that he is far from finished. As he continues to compete at an elite level with no signs of slowing down, LeBron aims to push the boundaries of what is possible in professional basketball, ensuring that his record, like Kareem's before him, may stand for many years to come.",
-                        "prev-record-holder":"Kareen Abdul-Jabar",
+                        "prev-record-holder":"Kareen Abdul-Jabar - 38,387",
                         "prev-record-holder-image":"images/kareem-abdul-jabar.jpg",
                         "prev-record-holder-desc":"Kareem Abdul-Jabbar, renowned for his signature skyhook shot, became the NBAs all-time leading scorer in 1984, surpassing Wilt Chamberlain's record. His dominance on the court was unmatched, as he maintained this scoring title for nearly four decades. Over his 20-year career, Kareem showcased remarkable consistency and longevity, becoming a central figure for both the Milwaukee Bucks and the Los Angeles Lakers. His ability to evolve his game and remain a top scorer into his late 30s speaks to his work ethic and basketball intelligence. Beyond scoring, Kareem's impact was felt in all facets of the game. He was a complete player, earning six MVP awards, the most by any player in NBA history, and leading his teams to six NBA championships. His leadership, defensive prowess, and playmaking abilities were pivotal in the success of both the Bucks, where he won his first championship, and the Lakers, where he added five more titles. Off the court, Kareem was also a trailblazer, using his platform to advocate for civil rights and social justice, further solidifying his legacy as not just a basketball legend but a cultural icon."
                     }
@@ -28,12 +28,84 @@
 
                 "record":[
                     {
-                        "record-holder":"Lebron James",
-                        "record-holder-image":"images/LeBron-James.jpg",
-                        "record-holder-desc":"LeBron James made history in 2023 by surpassing Kareem Abdul-Jabbars long-standing record for the most points in NBA history, a feat that had remained untouched for nearly 30 years. His achievement is a testament to his unparalleled versatility and ability to dominate the game over two decades. Known for his athleticism, basketball IQ, and leadership on the court, LeBron has consistently evolved his playstyle to adapt to the ever-changing dynamics of the league. Whether it was his explosive scoring, playmaking, or defensive impact, LeBrons all-around game made him one of the most complete players in basketball history. Despite reaching this monumental milestone, LeBron remains motivated to continue building his legacy and increasing the scoring gap between himself and future contenders. His longevity and sustained excellence, even after 20 years in the league, suggest that he is far from finished. As he continues to compete at an elite level with no signs of slowing down, LeBron aims to push the boundaries of what is possible in professional basketball, ensuring that his record, like Kareem's before him, may stand for many years to come.",
-                        "prev-record-holder":"Kareen Abdul-Jabar",
-                        "prev-record-holder-image":"images/kareem-abdul-jabar.jpg",
-                        "prev-record-holder-desc":"Kareem Abdul-Jabbar, renowned for his signature skyhook shot, became the NBAs all-time leading scorer in 1984, surpassing Wilt Chamberlain's record. His dominance on the court was unmatched, as he maintained this scoring title for nearly four decades. Over his 20-year career, Kareem showcased remarkable consistency and longevity, becoming a central figure for both the Milwaukee Bucks and the Los Angeles Lakers. His ability to evolve his game and remain a top scorer into his late 30s speaks to his work ethic and basketball intelligence. Beyond scoring, Kareem's impact was felt in all facets of the game. He was a complete player, earning six MVP awards, the most by any player in NBA history, and leading his teams to six NBA championships. His leadership, defensive prowess, and playmaking abilities were pivotal in the success of both the Bucks, where he won his first championship, and the Lakers, where he added five more titles. Off the court, Kareem was also a trailblazer, using his platform to advocate for civil rights and social justice, further solidifying his legacy as not just a basketball legend but a cultural icon."
+                        "record-holder":"John Stockton - 3,265",
+                        "record-holder-image":"KevinSM12.github.io/csce242/projects/part6/images/john-stockton.jpg",
+                        "record-holder-desc":"John Stockton holds the NBA's all-time steals record, a testament to his defensive prowess and incredible basketball IQ. Over his 19-year career with the Utah Jazz, Stockton established himself as one of the greatest point guards in history, not only because of his playmaking but also his ability to disrupt opponents' offenses. His record of 3,265 steals, far ahead of the nearest competitor, reflects his quick hands, anticipation, and tireless work ethic on the defensive end. Stockton's combination of leadership, precision passing, and defensive intensity made him a formidable force and a model of consistency throughout his career.",
+                        "prev-record-holder":"Jason Kidd - 2,684",
+                        "prev-record-holder-image":"images/jason-kidd.jpg",
+                        "prev-record-holder-desc":"Jason Kidd ranks second in NBA history for all-time steals, showcasing his defensive brilliance and court awareness over a stellar 19-year career. Known for his tenacity and high basketball IQ, Kidd amassed 2,684 steals, placing him just behind John Stockton. His ability to read passing lanes, anticipate plays, and pressure ball handlers made him a nightmare for opposing offenses. Kidd’s defensive skills, combined with his exceptional playmaking and rebounding abilities as a point guard, cemented his legacy as one of the most well-rounded and impactful players in NBA history."
+                    }
+                ]
+            }
+        ],
+        "Most_Blocks_All-Time_NBA":[
+            {
+                "record_id":"3",
+                "record_title":"Most Blocks All-Time",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-blks-img.jpg",
+                "record_description":"This record is held by the player who has acrewed the most blocks throgout their career. Blocking is one of the hardes parts of basketball as you have to predict where the offense is going to shoot or dunk.",
+                "record":[
+                    {
+                        "record-holder":"Hakeem Olajuwon - 3,830",
+                        "record-holder-image":"images/hakeem-olajuwon.jpg",
+                        "record-holder-desc":"Hakeem Olajuwon holds the NBA's all-time record for blocks, solidifying his reputation as one of the greatest defenders in basketball history. Over his 18-year career, Olajuwon recorded an astounding 3,830 blocks, showcasing his impeccable timing, athleticism, and defensive instincts. His ability to protect the rim made him a dominant force on the defensive end, intimidating opponents and altering countless shots. Known for his footwork and agility, Olajuwons defensive prowess complemented his offensive mastery, particularly with his famous Dream Shake in the post, making him one of the most complete players the game has ever seen.",
+                        "prev-record-holder":"Dikembe Mutombo - 3,289",
+                        "prev-record-holder-image":"images/dikembe-mutombo.jpg",
+                        "prev-record-holder-desc":"Dikembe Mutombo ranks second in NBA history for all-time blocks, known for his dominant shot-blocking ability and defensive presence. Over his 18-year career, Mutombo accumulated 3,289 blocks, making him a fearsome rim protector and a key figure on the defensive end for every team he played on. His signature finger-wag after rejecting shots became iconic, symbolizing his relentless defense and ability to alter games by shutting down the paint. Mutombo's imposing size, timing, and instincts made him one of the most feared defenders in the league, earning him four NBA Defensive Player of the Year awards and a lasting legacy as one of the game's premier shot blockers."
+                    }
+                ]
+            }
+        ],
+        "Most_TDs_All-Time_NBA":[
+            {
+                "record_id":"4",
+                "record_title":"Most TDs All-Time",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-TD-img.jpg",
+                "record_description":"This record encompasses the player that has attained the most triple double games in their career. This means that they got double digits in three different stats througout the course of the game.",
+                "record":[
+                    {
+                        "record-holder":"Russell Westbrook - 199",
+                        "record-holder-image":"images/russell-westbrook.jpg",
+                        "record-holder-desc":"Russell Westbrook holds the NBA's all-time record for triple-doubles, solidifying his place as one of the most dynamic and versatile players in basketball history. With 198 triple-doubles (and counting) throughout his career, Westbrook surpassed Oscar Robertson’s long-standing record in 2021. Known for his relentless energy, explosive athleticism, and all-around impact, Westbrook consistently contributes in scoring, rebounding, and playmaking. His ability to fill the stat sheet across all categories redefined the triple-double, making it a regular feature of his game. Westbrook’s unique blend of speed, power, and competitive spirit has reshaped expectations for what a point guard can achieve, cementing his legacy as the ultimate triple-double king in NBA history.",
+                        "prev-record-holder":"Oascar Robertson - 181",
+                        "prev-record-holder-image":"images/oscar-robertson.jpg",
+                        "prev-record-holder-desc":"Oscar Robertson ranks second in NBA history for all-time triple-doubles, a testament to his exceptional all-around ability and versatility on the court. Nicknamed The Big O, Robertson recorded 181 triple-doubles over his illustrious 14-year career, a feat that once stood as the most in NBA history for decades. His ability to score, rebound, and facilitate the offense with equal prowess made him one of the most complete players the league has ever seen. Robertson was a trailblazer in showing the value of a well-rounded game, and his dominance as a triple-double machine helped redefine what it meant to be an elite point guard in the NBA."
+                    }
+                ]
+            }
+        ],
+        "Most_Rebounds_All-Time_NBA":[
+            {
+                "record_id":"5",
+                "record_title":"Most Rebounds All-Time",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-rebnd-img.jpg",
+                "record_description":"This record shows the player with the most amount of rebounds in their career. Some of the best defenders in the history of the sport have battled for this record.",
+                "record":[
+                    {
+                        "record-holder":"Wilt Chamberlin - 23,924",
+                        "record-holder-image":"images/wilt-chamberlin.jpg",
+                        "record-holder-desc":"Wilt Chamberlain holds the NBA's all-time record for rebounds, a testament to his unmatched dominance and physicality on the court. Over his 14-year career, Chamberlain grabbed an astonishing 23,924 rebounds, a record that has stood the test of time. Known for his size, strength, and athleticism, Chamberlain controlled the glass like no other player, often pulling down rebounds at will against multiple defenders. His ability to dominate both ends of the court, particularly in securing defensive and offensive boards, made him a force of nature. Chamberlain’s rebounding record, along with his legendary scoring feats, solidified his status as one of the greatest and most unstoppable players in NBA history.",
+                        "prev-record-holder":"Bill Russell - 21,620",
+                        "prev-record-holder-image":"images/bill-russell.jpg",
+                        "prev-record-holder-desc":"Bill Russell ranks second in NBA history for all-time rebounds, with a total of 21,620 over his legendary 13-year career. Known for his exceptional defensive skills and tenacity, Russell was a master of positioning and timing, which allowed him to dominate the boards despite not being the biggest player on the court. His ability to grab crucial rebounds, particularly in high-pressure situations, was instrumental in leading the Boston Celtics to 11 NBA championships. Russell’s rebounding prowess, combined with his leadership and defensive brilliance, made him one of the most impactful and influential players in the history of the game."
+                    }
+                ]
+            }
+        ],
+        "Most_Assits_All-Time_NBA":[
+            {
+                "record_id":"6",
+                "record_title":"Most Assists All-Time",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-rebnd-img.jpg",
+                "record_description":"This record is given to the player with the most assists throughout their career. This player is one of the best teamates of all time as they give up the glory of scoring to help their team.",
+                "record":[
+                    {
+                        "record-holder":"John Stockton - 15,806",
+                        "record-holder-image":"images/john-stockton.jpg",
+                        "record-holder-desc":"John Stockton holds the NBA's all-time record for assists, an extraordinary achievement that highlights his status as the greatest playmaker in basketball history. Over his 19-year career, Stockton dished out an unparalleled 15,806 assists, a record that stands far above any other player. Known for his pinpoint passing and incredible basketball IQ, Stockton had an uncanny ability to find his teammates in perfect scoring positions, particularly his long-time pick-and-roll partner Karl Malone. His consistency, durability, and leadership helped the Utah Jazz become perennial contenders. Stockton's assist record, combined with his steals record, firmly establishes him as one of the most elite and unselfish point guards to ever play the game.",
+                        "prev-record-holder":"Jason Kidd - 12,091",
+                        "prev-record-holder-image":"images/jason-kidd.jpg",
+                        "prev-record-holder-desc":"Jason Kidd ranks second in NBA history for all-time assists, with an impressive 12,091 assists over his 19-year career. Known for his extraordinary court vision and basketball IQ, Kidd was a masterful playmaker who could orchestrate an offense with precision. His ability to find open teammates and make difficult passes look effortless made him one of the greatest point guards in the game’s history. Kidd’s leadership and passing skills were key to the success of every team he played for, and his ranking as second in assists cements his legacy as one of the NBA’s most prolific and unselfish floor generals."
                     }
                 ]
             }
