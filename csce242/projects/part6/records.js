@@ -80,7 +80,11 @@ const getRecord = (record) => {
         prevp.innerHTML = record.prev_record_holder_description;
         prevHolderSection.append(prevp);
 
-        return modal;
+        modal.onclick = (e) => {
+            if (e.target === modal) {
+                document.body.removeChild(modal);
+            }
+        };
     }
 
     return section;
