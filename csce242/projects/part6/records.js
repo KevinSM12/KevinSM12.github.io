@@ -1,3 +1,7 @@
+document.getElementById("toggle-nav").onclick = ()=>{
+    document.getElementById("nav-items").classList.toggle("hide");
+}
+
 const getRecords = async() => {
     const url = "https://KevinSM12.github.io/csce242/json/record.json";
 
