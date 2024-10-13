@@ -1,5 +1,5 @@
 const getRecords = async() => {
-    const url = "csce242/json/record.json";
+    const url = "https://KevinSM12.github.io/csce242/json/record.json";
 
     try {
         const response = await fetch(url);
@@ -7,12 +7,17 @@ const getRecords = async() => {
     } catch(error){
         console.log(error);
     }
-}
+};
 
 const showRecords = async() => {
     const records = await getRecords();
-    const recordsSection = document.getElementById("records-section");
+    console.log(records);
+    const recordsSection = document.getElementById("records");
 
+    if (!records) {
+        console.error("No records found");
+        return;
+    }
     records.forEach((record)=>{
         recordsSection.append(getRecord(record));
     });
@@ -38,6 +43,6 @@ const getRecord = (record) => {
     }
 
     return section;
-}
+};
 
 showRecords();
