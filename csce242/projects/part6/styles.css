@@ -242,18 +242,13 @@ hr{
     margin-right:25px;
 }
 
-#record-holders{
-    margin-right:50px;
-    margin-left:50px;
-}
-
-#record-holders{
+.record-holders{
     padding:25px;
     margin-left:15px;
     margin-right:15px;
 }
 
-#holder-section p{
+.holder-section p{
     margin-right:30px;
 }
 
