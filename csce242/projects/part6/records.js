@@ -36,7 +36,7 @@ const showRecords = async () => {
 
 const getRecord = (record) => {
     const section = document.createElement("section");
-    section.classList.add("one");
+    section.classList.add("one","item");
     const recordDiv = document.createElement("div");
     recordDiv.classList.add("record-section");
     section.append(recordDiv);
@@ -54,15 +54,17 @@ const getRecord = (record) => {
     recordDiv.append(desc); // Append description to recordDiv
 
     section.onclick = () => {
+        console.log("Section clicked");
         const modal = document.createElement("div");
-        document.body.append(modal);
         modal.classList.add("modal");
+        document.body.append(modal);
         
         const content = document.createElement("div");
         content.classList.add("modal-content");
         modal.append(content);
         
         const h2 = document.createElement("h2");
+        h2.style.marginLeft = "20px";
         h2.innerHTML = record.record_title;
         content.append(h2);
         
