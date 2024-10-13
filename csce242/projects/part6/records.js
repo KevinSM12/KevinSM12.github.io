@@ -39,6 +39,7 @@ const getRecord = (record) => {
 
     section.onclick = ()=>{
         const modal = document.createElement("div");
+        document.body.append(modal);
         modal.classList.add("modal");
         const content = document.createElement("div");
         content.classList.add("modal-content");
