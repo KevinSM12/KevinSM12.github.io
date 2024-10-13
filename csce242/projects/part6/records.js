@@ -60,13 +60,13 @@ const getRecord = (record) => {
         content.append(recordHolders);
 
         // Loop through the record array
-        record.record.forEach(holder => {
+        record.forEach(holder => {
             const holderSection = document.createElement("section");
             holderSection.classList.add("one", "holder-section");
             recordHolders.append(holderSection);
             
             const holderImg = document.createElement("img");
-            holderImg.src = holder.record_holder_image; // Access record_holder_image
+            holderImg.src = holder.record_holder_image; 
             holderSection.append(holderImg);
             
             const h4 = document.createElement("h4");
@@ -74,11 +74,11 @@ const getRecord = (record) => {
             holderSection.append(h4);
             
             const h3 = document.createElement("h3");
-            h3.innerHTML = holder.record_holder; // Access record_holder
+            h3.innerHTML = holder.record_holder; 
             holderSection.append(h3);
             
             const p = document.createElement("p");
-            p.innerHTML = holder.record_holder_desc; // Access record_holder_desc
+            p.innerHTML = holder.record_holder_desc;
             holderSection.append(p);
             
             const prevHolderSection = document.createElement("section");
@@ -86,7 +86,7 @@ const getRecord = (record) => {
             recordHolders.append(prevHolderSection);
             
             const prevHolderImg = document.createElement("img");
-            prevHolderImg.src = holder.prev_record_holder_image; // Access prev_record_holder_image
+            prevHolderImg.src = holder.prev_record_holder_image; 
             prevHolderSection.append(prevHolderImg);
             
             const prevh4 = document.createElement("h4");
@@ -94,11 +94,11 @@ const getRecord = (record) => {
             prevHolderSection.append(prevh4);
             
             const prevh3 = document.createElement("h3");
-            prevh3.innerHTML = holder.prev_record_holder; // Access prev_record_holder
+            prevh3.innerHTML = holder.prev_record_holder; 
             prevHolderSection.append(prevh3);
             
             const prevp = document.createElement("p");
-            prevp.innerHTML = holder.prev_record_holder_desc; // Access prev_record_holder_desc
+            prevp.innerHTML = holder.prev_record_holder_desc;
             prevHolderSection.append(prevp);
         });
 
