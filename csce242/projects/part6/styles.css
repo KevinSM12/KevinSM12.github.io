@@ -103,26 +103,23 @@ hr{
     padding:5px;
 }
 
-#records section{
-    margin-left:5px;
-    margin-right:5px;
-}
 
-#record-section{
+.record-section{
     background-color: var(--black);
     text-align:center;
     padding:10px;
+    margin:10px;
 }
 
-#record-section h4{
+.record-section h4{
     color:var(--white);
 }
 
-#record-section p{
+.record-section p{
     color:var(--white);
 }
 
-#record-section img{
+.record-section img{
     height: 200px;
 }
 

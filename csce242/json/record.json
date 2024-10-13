@@ -1,6 +1,6 @@
 [
     {
-        "Most_Points_All-Time_NBA":[
+        "Most_Points_NBA":[
             {
                 "record_id":"01",
                 "record_title":"Most Points All-Time",
@@ -19,7 +19,7 @@
                 ]
             }
         ],
-        "Most_Steals_All-Time_NBA":[
+        "Most_Steals_NBA":[
             {
                 "record_id":"02",
                 "record_title":"Most Steals All-Time",
@@ -38,7 +38,7 @@
                 ]
             }
         ],
-        "Most_Blocks_All-Time_NBA":[
+        "Most_Blocks_NBA":[
             {
                 "record_id":"03",
                 "record_title":"Most Blocks All-Time",
@@ -56,7 +56,7 @@
                 ]
             }
         ],
-        "Most_TDs_All-Time_NBA":[
+        "Most_TDs_NBA":[
             {
                 "record_id":"04",
                 "record_title":"Most TDs All-Time",
@@ -74,7 +74,7 @@
                 ]
             }
         ],
-        "Most_Rebounds_All-Time_NBA":[
+        "Most_Rebounds_NBA":[
             {
                 "record_id":"05",
                 "record_title":"Most Rebounds All-Time",
@@ -92,7 +92,7 @@
                 ]
             }
         ],
-        "Most_Assits_All-Time_NBA":[
+        "Most_Assits_NBA":[
             {
                 "record_id":"06",
                 "record_title":"Most Assists All-Time",
@@ -110,7 +110,7 @@
                 ]
             }
         ],
-        "Most_Points_All-Time_WNBA":[
+        "Most_Points_WNBA":[
             {
                 "record_id":"07",
                 "record_title":"Most Points All-Time",
@@ -129,7 +129,7 @@
                 ]
             }
         ],
-        "Most_Steals_All-Time_WNBA":[
+        "Most_Steals_WNBA":[
             {
                 "record_id":"08",
                 "record_title":"Most Steals All-Time",
@@ -148,7 +148,7 @@
                 ]
             }
         ],
-        "Most_Blocks_All-Time_WNBA":[
+        "Most_Blocks_WNBA":[
             {
                 "record_id":"09",
                 "record_title":"Most Blocks All-Time",
@@ -166,7 +166,7 @@
                 ]
             }
         ],
-        "Most_TDs_All-Time_WNBA":[
+        "Most_TDs_WNBA":[
             {
                 "record_id":"10",
                 "record_title":"Most TDs All-Time",
@@ -184,7 +184,7 @@
                 ]
             }
         ],
-        "Most_Rebounds_All-Time_WNBA":[
+        "Most_Rebounds_WNBA":[
             {
                 "record_id":"11",
                 "record_title":"Most Rebounds All-Time",
@@ -202,7 +202,7 @@
                 ]
             }
         ],
-        "Most_Assits_All-Time_WNBA":[
+        "Most_Assits_WNBA":[
             {
                 "record_id":"12",
                 "record_title":"Most Assists All-Time",
@@ -216,6 +216,226 @@
                         "prev-record-holder":"Courtney-Vandersloot - 2,850",
                         "prev-record-holder-image":"images/courtney-vandersloot.jpg",
                         "prev-record-holder-desc":"Courtney Vandersloot has established herself as one of the premier playmakers in WNBA history, holding the record for the second most assists of all time in the league. Since entering the league in 2011, Vandersloot has been known for her exceptional court vision, precision passing, and ability to orchestrate her team's offense effectively. Her remarkable skill set has allowed her to accumulate over 2,000 assists, showcasing her ability to create scoring opportunities for her teammates. Playing primarily for the Chicago Sky, Vandersloot has consistently demonstrated her leadership on the court, often stepping up in crucial moments to deliver key plays. Her impressive assist total not only reflects her individual talent but also emphasizes her commitment to team success, making her a vital asset to any roster. As she continues to build her legacy, Vandersloot's accomplishments inspire future generations of players to prioritize teamwork and playmaking in their games."
+                    }
+                ]
+            }
+        ],
+        "Most_Points_FIBA":[
+            {
+                "record_id":"13",
+                "record_title":"Most Points All-Time",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-pts-img-fiba.jpg",
+                "record_description":"This record is held by the player has acrewd the most points total throughout their career. This record has always been a part of basketball but was only offcial tracked stating in 1970.",
+
+                "record":[
+                    {
+                        "record-holder":"Pau Gasol - 1,183",
+                        "record-holder-image":"images/pau-gasol.jpg",
+                        "record-holder-desc":"Pau Gasol, one of the greatest international basketball players in history, holds the record for the most points scored all-time in FIBA competition. As the centerpiece of Spain’s national team for over two decades, Gasol's scoring ability, versatility, and basketball IQ have made him an unstoppable force on the global stage. With his exceptional post play, mid-range shooting, and leadership, Gasol has led Spain to numerous championships, including two EuroBasket titles and Olympic medals. His scoring record in FIBA reflects his consistency and dominance in international play, where he has often been the go-to player in critical moments. Gasol’s legacy in international basketball is unparalleled, and his impact on the game is celebrated worldwide, inspiring players across generations.",
+                        "prev-record-holder":"Tony Parker - 1,104",
+                        "prev-record-holder-image":"images/tony-parker.jpg",
+                        "prev-record-holder-desc":"Tony Parker, one of the most iconic international basketball players, holds the record for the second most points scored all-time in FIBA competition. Known for his quickness, crafty playmaking, and lethal scoring ability, Parker was a dominant force for the French national team. Throughout his FIBA career, he consistently led France with his dynamic offensive game, helping them achieve significant success, including a European Championship in 2013. Parker's scoring record in FIBA competition is a testament to his longevity and his ability to perform on the biggest international stages. His achievements have solidified his place as one of the greatest European players, inspiring a new generation of talent to follow in his footsteps."
+                    }
+                ]
+            }
+        ],
+        "Most_Steals_FIBA":[
+            {
+                "record_id":"14",
+                "record_title":"Most Steals All-Time",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-stls-img-fiba.jpg",
+                "record_description":"This record is held by the player with the most steals in their career. THis player is the shiftiest and has gained their team mnay a turnover in their day.",
+
+                "record":[
+                    {
+                        "record-holder":"Rudy Fernandez - 52",
+                        "record-holder-image":"images/rudy-fernandez.jpg",
+                        "record-holder-desc":"Rudy Fernández, a defensive specialist and versatile guard, holds the record for the most steals all-time in FIBA competition. Known for his quick hands, sharp instincts, and relentless energy on defense, Fernández has been a key figure for Spain's national team for many years. His ability to anticipate passes and disrupt opposing offenses has made him a defensive powerhouse in international play, often turning steals into fast-break opportunities for his team. Fernández's record for steals reflects not only his individual talent but also his commitment to the team’s success, as his defensive efforts have helped Spain secure multiple EuroBasket championships and Olympic medals. His legacy as one of FIBA's best defenders is firmly established, and his impact continues to inspire players who prioritize defense and hustle.",
+                        "prev-record-holder":"Ricky Rubio - 50",
+                        "prev-record-holder-image":"images/ricky-rubio.jpg",
+                        "prev-record-holder-desc":"Ricky Rubio, known for his exceptional court vision and defensive tenacity, holds the record for the second most steals all-time in FIBA competition. From a young age, Rubio displayed a knack for disrupting opposing offenses, using his quick hands and sharp instincts to intercept passes and create fast-break opportunities for his team. His defensive presence has been a crucial part of Spain's national team success, helping them win multiple international titles, including a FIBA World Cup and EuroBasket championships. Rubio's ability to read the game and anticipate plays has made him one of the most feared defenders in international basketball. His ranking as second all-time in FIBA steals solidifies his status as an elite defender and playmaker, contributing immensely to Spain’s dominance on the world stage."
+                    }
+                ]
+            }
+        ],
+        "Most_Blocks_FIBA":[
+            {
+                "record_id":"15",
+                "record_title":"Most Blocks All-Time",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-blks-img-fiba.jpg",
+                "record_description":"This record is held by the player who has acrewed the most blocks throgout their career. Blocking is one of the hardes parts of basketball as you have to predict where the offense is going to shoot or dunk.",
+                "record":[
+                    {
+                        "record-holder":"Pau Gasol - 47",
+                        "record-holder-image":"images/pau-gasol.jpg",
+                        "record-holder-desc":"Pau Gasol, widely regarded as one of the most skilled and versatile big men in basketball, holds the record for the most blocks all-time in FIBA competition. Known for his incredible basketball IQ, length, and timing, Gasol has been a dominant force on both ends of the court for Spain’s national team. His shot-blocking ability, combined with his defensive leadership, has anchored Spain's defense in numerous international tournaments, helping them to secure multiple EuroBasket titles, World Cup victories, and Olympic medals. Gasol's record for the most blocks in FIBA reflects his consistency and presence as a rim protector, showcasing his ability to alter the course of games with his defensive efforts. His legacy in international basketball is defined not just by his scoring, but by his all-around game, including his ability to protect the paint.",
+                        "prev-record-holder":"Andrei Kirilenko - 35",
+                        "prev-record-holder-image":"images/andrei-kirilenko.jpg",
+                        "prev-record-holder-desc":"Andrei Kirilenko, a towering presence on the court known for his defensive versatility, holds the record for the second most blocks all-time in FIBA competition. With his extraordinary athleticism, long wingspan, and impeccable timing, Kirilenko was a nightmare for opposing players, consistently protecting the rim and altering shots. As a key figure for the Russian national team, his shot-blocking ability played a pivotal role in their defensive success during numerous international tournaments. Kirilenko's elite defense helped Russia secure significant achievements, including a EuroBasket title and an Olympic bronze medal. His record for blocks in FIBA competition highlights his dominance on the defensive end, cementing his legacy as one of the best shot-blockers and defenders in international basketball history."
+                    }
+                ]
+            }
+        ],
+        "Most_TDs_FIBA":[
+            {
+                "record_id":"16",
+                "record_title":"Most TDs All-Time",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-TD-img-fiba.jpg",
+                "record_description":"This record encompasses the player that has attained the most triple double games in their career. This means that they got double digits in three different stats througout the course of the game.",
+                "record":[
+                    {
+                        "record-holder":"Lebron James - 2",
+                        "record-holder-image":"images/Lebron-James.jpg",
+                        "record-holder-desc":"LeBron James, known for his all-around game and versatility, does not hold the record for the most triple-doubles all-time in FIBA competition, as triple-doubles are rare in international play and not a common statistic tracked in FIBA. However, during his time representing Team USA, LeBron showcased his ability to excel in every aspect of the game, whether it was scoring, rebounding, or playmaking. His unique combination of size, skill, and basketball IQ allowed him to be a constant triple-double threat in any game he played. LeBron's contributions to Team USA led to multiple Olympic gold medals and FIBA World Championship successes, solidifying his place as one of the greatest international players, even without specific triple-double records.",
+                        "prev-record-holder":"Nikola Jokic - 1",
+                        "prev-record-holder-image":"images/nikola-jokic.jpg",
+                        "prev-record-holder-desc":"Nikola Jokić, known for his extraordinary playmaking and versatility as a center, does not officially hold the record for the second most triple-doubles in FIBA competition. However, his unique ability to contribute across all aspects of the game—scoring, rebounding, and especially his remarkable passing—makes him a constant triple-double threat in any competition, whether it’s for the NBA or for the Serbian national team. Jokić’s court vision and basketball IQ are unparalleled for a big man, and his contributions have helped Serbia remain a powerhouse in international basketball. Though triple-doubles are uncommon in FIBA play, Jokić's all-around brilliance consistently stands out, making him one of the most impactful players on the world stage. His performances in major tournaments like the FIBA World Cup and the Olympics further cement his status as a global basketball icon."
+                    }
+                ]
+            }
+        ],
+        "Most_Rebounds_FIBA":[
+            {
+                "record_id":"17",
+                "record_title":"Most Rebounds All-Time",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-rebnd-img-fiba.jpg",
+                "record_description":"This record shows the player with the most amount of rebounds in their career. Some of the best defenders in the history of the sport have battled for this record.",
+                "record":[
+                    {
+                        "record-holder":"Hamed Haddadi - 333",
+                        "record-holder-image":"images/hamed-haddadi.jpg",
+                        "record-holder-desc":"Hamed Haddadi, the towering center from Iran, holds the record for the most blocks all-time in FIBA competition. Known for his incredible shot-blocking ability, Haddadi has been a dominant defensive force on the international stage for many years. Standing at 7'2, his imposing presence in the paint has allowed him to consistently alter and reject shots, making it difficult for opponents to score around the rim. As the centerpiece of Iran’s national team, Haddadi’s defensive prowess has been a key factor in the team's success in Asian competitions, including multiple FIBA Asia Cup titles. His record for the most blocks in FIBA showcases his elite rim protection and cements his legacy as one of the best defensive players in international basketball.",
+                        "prev-record-holder":"Luis Scola - 311",
+                        "prev-record-holder-image":"images/luis-scola.jpg",
+                        "prev-record-holder-desc":"Luis Scola is celebrated for his longevity and versatility in international basketball, but he does not hold the record for the second most blocks all-time in FIBA competition. While Scola is primarily known for his scoring ability, leadership, and rebounding skills, he was not typically recognized as a dominant shot-blocker. His contributions to the Argentine national team, however, are immense, as he played a crucial role in leading Argentina to numerous international successes, including an Olympic gold medal in 2004 and a FIBA World Cup silver in 2019. Scola’s legacy is defined by his all-around game, leadership, and consistent excellence over two decades of international competition, making him one of the greatest players in FIBA history."
+                    }
+                ]
+            }
+        ],
+        "Most_Assits_FIBA":[
+            {
+                "record_id":"18",
+                "record_title":"Most Assists All-Time",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-ass-img-fiba.jpg",
+                "record_description":"This record is given to the player with the most assists throughout their career. This player is one of the best teamates of all time as they give up the glory of scoring to help their team.",
+                "record":[
+                    {
+                        "record-holder":"Ricky Rubio - 214",
+                        "record-holder-image":"images/ricky-rubio.jpg",
+                        "record-holder-desc":"Ricky Rubio, renowned for his exceptional playmaking abilities and vision on the court, holds the record for the most assists all-time in FIBA competition. With his incredible basketball IQ and skillful passing, Rubio has consistently demonstrated his ability to create scoring opportunities for his teammates throughout his international career. Representing Spain, he has been instrumental in the team's success, contributing to their gold medal at the 2006 FIBA World Championship and multiple EuroBasket titles. His record for assists in FIBA highlights not only his individual talent but also his unselfishness and commitment to team play, solidifying his legacy as one of the greatest playmakers in international basketball history. Rubio's ability to control the pace of the game and facilitate offensive flow has made him a crucial asset for the Spanish national team, inspiring future generations of players with his skill and vision.",
+                        "prev-record-holder":"Marcelinho Huertas - 182",
+                        "prev-record-holder-image":"images/marce-h.jpg",
+                        "prev-record-holder-desc":"Marcelinho Huertas, the talented Brazilian point guard, holds the record for the second most assists all-time in FIBA competition, solidifying his status as one of the premier playmakers in international basketball. Known for his exceptional court vision, creativity, and ability to orchestrate the offense, Huertas has consistently demonstrated his skills on the global stage while representing Brazil. His precise passing and knack for finding open teammates have been key to Brazil's success in various international tournaments, including the FIBA World Cup and the Olympics. Huertas's record for assists reflects his unselfish playing style and dedication to team success, showcasing his ability to elevate those around him. With a career spanning over a decade at the international level, Huertas has not only made significant contributions on the court but has also inspired future generations of Brazilian players with his leadership and skill."
+                    }
+                ]
+            }
+        ],
+        "Most_Points_NCAA":[
+            {
+                "record_id":"19",
+                "record_title":"Most Points All-Time",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-pts-img-ncaa.jpg",
+                "record_description":"This record is held by the player has acrewd the most points total throughout their career. This record has always been a part of basketball but was only offcial tracked stating in 1970.",
+
+                "record":[
+                    {
+                        "record-holder":"Pete Maravich - 3,667",
+                        "record-holder-image":"images/pete-maravich.jpg",
+                        "record-holder-desc":"Pete Maravich, often regarded as one of the greatest basketball players of all time, holds the record for the most points scored in NCAA Division I history, with an astounding total of 3,667 points during his college career at Louisiana State University (LSU) from 1967 to 1970. Maravich achieved this remarkable feat in just three seasons, as the NCAA did not allow freshmen to play varsity basketball at the time. Known for his dazzling ball-handling skills, exceptional shooting ability, and creativity on the court, Maravich revolutionized the game with his flashy style and high-scoring performances. He averaged an unprecedented 44.2 points per game over his college career, a record that still stands today. His impact on the game and ability to score from anywhere on the court made him a legend, and he continues to inspire countless players and fans with his extraordinary legacy in college basketball.",
+                        "prev-record-holder":"Antoine Davis - 3,664",
+                        "prev-record-holder-image":"images/antoine-davis.jpg",
+                        "prev-record-holder-desc":"Antoine Davis, a standout guard from Detroit Mercy, holds the record for the second most points scored all-time in NCAA Division I basketball history. His remarkable scoring ability and offensive prowess allowed him to accumulate over 3,600 points during his college career, placing him just behind the legendary Pete Maravich. Known for his exceptional shooting range, ball-handling skills, and competitive spirit, Davis consistently showcased his talent throughout his four years at Detroit Mercy. He became a prolific scorer, earning numerous accolades and breaking several records along the way. Davis's achievement not only highlights his individual skill but also reflects his dedication to the game, solidifying his legacy as one of the greatest scorers in college basketball history and inspiring future generations of players to strive for excellence."
+                    }
+                ]
+            }
+        ],
+        "Most_Steals_NCAA":[
+            {
+                "record_id":"20",
+                "record_title":"Most Steals All-Time",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-stls-img-ncaa.jpg",
+                "record_description":"This record is held by the player with the most steals in their career. THis player is the shiftiest and has gained their team mnay a turnover in their day.",
+
+                "record":[
+                    {
+                        "record-holder":"Jacob Gilyard - 1,175",
+                        "record-holder-image":"images/jacob-gilyard.jpg",
+                        "record-holder-desc":"Jacob Gilyard, a standout guard from the University of Richmond, holds the record for the most steals all-time in NCAA Division I basketball history, with an impressive total of 1,175 steals throughout his collegiate career. Gilyard's tenacious defensive skills, quick hands, and relentless pursuit of the ball allowed him to excel in creating turnovers and disrupting opposing offenses. Known for his ability to read the game and anticipate plays, he became a formidable defender, consistently leading the nation in steals during his time at Richmond. Gilyard's record-breaking achievement not only highlights his individual talent but also emphasizes the importance of defense in basketball, showcasing how a player's defensive prowess can significantly impact a team's success. His remarkable achievement has earned him recognition as one of the greatest defenders in college basketball history, inspiring future generations of players to prioritize defensive excellence.",
+                        "prev-record-holder":"John Linehan - 385",
+                        "prev-record-holder-image":"images/john-linehan.jpg",
+                        "prev-record-holder-desc":"John Linehan, a former point guard for the University of Rhode Island, holds the record for the second most steals all-time in NCAA Division I basketball history, with an impressive total of 385 steals throughout his collegiate career from 1996 to 2000. Renowned for his tenacious defense, quick reflexes, and relentless work ethic, Linehan was a disruptive force on the court, often pressuring opponents and creating turnovers. His ability to read plays and anticipate passes allowed him to excel in stealing the ball, earning him recognition as one of the best defensive players of his era. Linehan's record underscores the significance of defensive prowess in basketball, showcasing how effective defense can change the dynamics of a game. His legacy continues to inspire young players to focus on their defensive skills and understand the critical role that defense plays in achieving success on the court."
+                    }
+                ]
+            }
+        ],
+        "Most_Blocks_NCAA":[
+            {
+                "record_id":"21",
+                "record_title":"Most Blocks All-Time",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-blks-img-ncaa.jpg",
+                "record_description":"This record is held by the player who has acrewed the most blocks throgout their career. Blocking is one of the hardes parts of basketball as you have to predict where the offense is going to shoot or dunk.",
+                "record":[
+                    {
+                        "record-holder":"Jarvis Varnado - 564",
+                        "record-holder-image":"images/jarvis-varnado.jpg",
+                        "record-holder-desc":"Jarvis Varnado, a standout center for Mississippi State University, holds the record for the most blocks all-time in NCAA Division I basketball history, with an astounding total of 572 blocks during his collegiate career from 2006 to 2010. Known for his exceptional shot-blocking ability, athleticism, and defensive instincts, Varnado became a dominant force in the paint, consistently altering and rejecting shots from opponents. His remarkable defensive prowess earned him numerous accolades, including the SEC Defensive Player of the Year multiple times and recognition as an All-American. Varnado’s record for blocks underscores not only his individual talent but also the crucial role that rim protection plays in basketball, illustrating how a strong defensive presence can shift the momentum of a game. His legacy as one of the greatest shot-blockers in NCAA history continues to inspire future generations of players to focus on their defensive skills and the importance of being a formidable presence in the paint.",
+                        "prev-record-holder":"Wojciech Myrda - 535",
+                        "prev-record-holder-image":"images/wojciech-myrda.jpg",
+                        "prev-record-holder-desc":"Wojciech Myrda, a standout center from Poland, holds the record for the second most blocks all-time in NCAA Division I basketball history, with a remarkable total of 455 blocks during his college career at the University of Nebraska from 1997 to 2001. Known for his imposing size and exceptional shot-blocking ability, Myrda was a dominant presence in the paint, consistently altering opponents' shots and protecting the rim. His combination of athleticism, timing, and defensive awareness made him a formidable force on the court, helping his team excel defensively. Myrda's achievement not only highlights his individual talent but also underscores the importance of rim protection in basketball, illustrating how a strong defensive presence can significantly impact a team's success. His legacy as one of the greatest shot-blockers in NCAA history continues to inspire future generations of players to prioritize defense and strive for excellence in the paint."
+                    }
+                ]
+            }
+        ],
+        "Most_TDs_NCAA":[
+            {
+                "record_id":"22",
+                "record_title":"Most TDs All-Time",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-TD-img-ncaa.jpg",
+                "record_description":"This record encompasses the player that has attained the most triple double games in their career. This means that they got double digits in three different stats througout the course of the game.",
+                "record":[
+                    {
+                        "record-holder":"Kyle Collinsworth - 12",
+                        "record-holder-image":"images/kyle-collinsworth.jpg",
+                        "record-holder-desc":"Kyle Collinsworth, a former guard for Brigham Young University (BYU), holds the record for the most triple-doubles all-time in NCAA Division I basketball history, achieving an impressive total of 12 triple-doubles during his collegiate career from 2012 to 2016. Known for his versatility, Collinsworth excelled at scoring, rebounding, and playmaking, making him a unique threat on the court. His ability to contribute in multiple areas of the game allowed him to consistently fill up the stat sheet, earning him accolades and recognition as one of the most well-rounded players in college basketball. Collinsworth's record for triple-doubles highlights not only his individual talent but also his impact on the game, demonstrating how a player can influence both the offensive and defensive aspects of play. His legacy continues to inspire aspiring players to develop a well-rounded game and strive for excellence in all facets of basketball.",
+                        "prev-record-holder":"Michael Anderson - 10",
+                        "prev-record-holder-image":"images/michael-anderson.jpg",
+                        "prev-record-holder-desc":"Michael Anderson, a former point guard for La Salle University, holds the record for the second most triple-doubles all-time in NCAA Division I basketball history, with an impressive total of 10 triple-doubles during his collegiate career from 1982 to 1986. Known for his exceptional passing ability, scoring prowess, and rebounding skills, Anderson was a versatile player who could impact the game in multiple ways. His remarkable ability to fill the stat sheet made him a standout in college basketball, as he consistently contributed to his team’s success. Anderson’s record for triple-doubles underscores the importance of a well-rounded skill set in basketball, showcasing how a player can significantly influence both ends of the court. His legacy continues to inspire future generations of players to develop their all-around game and strive for excellence in every aspect of basketball."
+                    }
+                ]
+            }
+        ],
+        "Most_Rebounds_NCAA":[
+            {
+                "record_id":"23",
+                "record_title":"Most Rebounds All-Time",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-rebnd-img-ncaa.jpg",
+                "record_description":"This record shows the player with the most amount of rebounds in their career. Some of the best defenders in the history of the sport have battled for this record.",
+                "record":[
+                    {
+                        "record-holder":"Tom Gola - 2,201",
+                        "record-holder-image":"images/tom-gola.jpg",
+                        "record-holder-desc":"Tom Gola, a legendary player for La Salle University, holds the record for the most rebounds all-time in NCAA Division I basketball history, amassing an incredible total of 2,201 rebounds during his collegiate career from 1950 to 1955. Known for his exceptional athleticism, strength, and relentless work ethic, Gola was a dominant force on the boards, consistently outmatching opponents and securing crucial possessions for his team. His rebounding prowess, combined with his scoring ability and playmaking skills, helped lead La Salle to a national championship in 1954. Gola’s remarkable achievement underscores the critical role that rebounding plays in basketball, highlighting how controlling the boards can significantly impact a team's success. His legacy as one of the greatest rebounders in NCAA history continues to inspire future generations of players to prioritize hard work, determination, and a commitment to excellence in their game.",
+                        "prev-record-holder":"Joe Holup - 2,030",
+                        "prev-record-holder-image":"images/joe-holup.jpg",
+                        "prev-record-holder-desc":"Joe Holup, a former center for the University of Scranton, holds the record for the second most rebounds all-time in NCAA Division I basketball history, with an impressive total of 1,290 rebounds during his collegiate career from 1952 to 1956. Known for his exceptional rebounding ability, strength, and positioning, Holup dominated the boards, consistently outworking opponents to secure crucial possessions for his team. His tenacity and skill in grabbing rebounds not only made him a standout player in his era but also played a significant role in leading his team to success. Holup's remarkable achievement underscores the importance of rebounding in basketball, highlighting how a player’s ability to control the boards can influence the outcome of a game. His legacy as one of the greatest rebounders in NCAA history continues to inspire aspiring players to prioritize hard work and dedication in their pursuit of excellence on the court."
+                    }
+                ]
+            }
+        ],
+        "Most_Assits_NCAA":[
+            {
+                "record_id":"24",
+                "record_title":"Most Assists All-Time",
+                "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-ass-img-ncaa.jpg",
+                "record_description":"This record is given to the player with the most assists throughout their career. This player is one of the best teamates of all time as they give up the glory of scoring to help their team.",
+                "record":[
+                    {
+                        "record-holder":"Bobby Hurley - 1,076",
+                        "record-holder-image":"images/bobby-hurley.jpg",
+                        "record-holder-desc":"Bobby Hurley, a legendary point guard for Duke University, holds the record for the most assists all-time in NCAA Division I basketball history, accumulating an impressive total of 1,076 assists during his illustrious college career from 1989 to 1993. Known for his exceptional court vision, quick decision-making, and playmaking ability, Hurley was a pivotal figure in Duke's success, helping the team secure back-to-back national championships in 1991 and 1992. His ability to create scoring opportunities for his teammates while maintaining a high level of play earned him widespread recognition and respect in the world of college basketball. Hurley's record for assists highlights not only his individual talent but also the importance of teamwork and unselfishness in the game. His legacy as one of the greatest playmakers in NCAA history continues to inspire future generations of players, emphasizing the value of facilitating and enhancing the performance of teammates on the court.",
+                        "prev-record-holder":"Chris Corchiani -  1,038",
+                        "prev-record-holder-image":"images/chris-corchiani.jpg",
+                        "prev-record-holder-desc":"Chris Corchiani, a standout point guard for North Carolina State University (NC State), holds the record for the second most assists all-time in NCAA Division I basketball history, with an impressive total of 1,038 assists during his collegiate career from 1989 to 1993. Known for his exceptional passing skills, court vision, and ability to control the pace of the game, Corchiani was instrumental in orchestrating NC State's offense. His knack for setting up teammates for scoring opportunities, combined with his defensive tenacity, made him a key player during his time at the university. Corchiani's record for assists underscores the importance of playmaking in basketball, showcasing how a dedicated point guard can significantly elevate a team's performance. His legacy as one of the greatest facilitators in NCAA history continues to inspire aspiring players to prioritize teamwork and the art of passing on the court."
                     }
                 ]
             }
