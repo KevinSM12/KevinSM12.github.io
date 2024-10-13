@@ -40,6 +40,21 @@ const getRecord = (record) => {
 
     section.onclick = ()=>{
         const modal = document.createElement("div");
+        modal.classList.add("modal");
+        const content = document.createElement("div");
+        content.classList.add("modal-content");
+        modal.append(content);
+        const h2 = document.createElement("h2");
+        h2.innerHTML = record.record_title;
+        content.append(h2);
+        const recordHolders = document.createElement("div");
+        recordHolders.classList.add("columns");
+        content.append(recordHolders);
+        const holderSection = document.createElement("section");
+        holderSection.classList.add("one");
+        recordHolders.append(holderSection);
+        const holderImg = document.createElement("img");
+        holderImg.src = record.record.record-holder-image;
     }
 
     return section;
