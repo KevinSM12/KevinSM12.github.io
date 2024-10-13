@@ -54,30 +54,30 @@ const getRecord = (record) => {
         holderSection.classList.add("one","holder-section");
         recordHolders.append(holderSection);
         const holderImg = document.createElement("img");
-        holderImg.src = record.record.record_holder_image;
+        holderImg.src = record.record_holder_image;
         const h4 = document.createElement("h4");
         h4.innerHTML = "Current Record Holder:"
         holderSection.append(h4);
         const h3 = document.createElement("h3")
-        h3.innerHTML = record.record.record_holder;
+        h3.innerHTML = record.record_holder;
         holderSection.append(h3);
         const p = document.createElement("p");
-        p.innerHTML = record.record.record_holder_description;
+        p.innerHTML = record.record_holder_description;
         holderSection.append(p);
         const prevHolderSection = document.createElement("section");
         prevHolderSection.classList.add("one","holder-section");
         recordHolders.append(prevHolderSection);
         const prevHolderImg = document.createElement("img");
-        prevHolderImg.src = record.record.prev_record_holder_image;
+        prevHolderImg.src = record.prev_record_holder_image;
         prevHolderSection.append(prevHolderImg);
         const prevh4 = document.createElement("h4");
         prevh4.innerHTML = "Previous Record Holder:"
         prevHolderSection.append(prevh4);
         const prevh3 = document.createElement("h3")
-        prevh3.innerHTML = record.record.prev_record_holder;
+        prevh3.innerHTML = record.prev_record_holder;
         prevHolderSection.append(prevh3);
         const prevp = document.createElement("p");
-        prevp.innerHTML = record.record.prev_record_holder_description;
+        prevp.innerHTML = record.prev_record_holder_description;
         prevHolderSection.append(prevp);
 
         return modal;
