@@ -19,10 +19,17 @@ const showRecords = async () => {
         return;
     }
 
-    // Loop through each category in the records (like Most_Points_NBA)
-    Object.keys(records).forEach(category => {
-        records[category].forEach(record => {
-            recordsSection.append(getRecord(record));
+    records.forEach(categoryObject => {
+        // Each categoryObject will be an object with a single key
+        Object.keys(categoryObject).forEach(category => {
+            const recordsArray = categoryObject[category]; // This should be an array
+            if (Array.isArray(recordsArray)) {
+                recordsArray.forEach(record => {
+                    recordsSection.append(getRecord(record));
+                });
+            } else {
+                console.error(`Expected an array for category: ${category}`);
+            }
         });
     });
 };
@@ -63,50 +70,53 @@ const getRecord = (record) => {
         recordHolders.classList.add("columns", "record-holders");
         content.append(recordHolders);
 
-        // Loop through the record array
-        record.forEach(holder => {
-            const holderSection = document.createElement("section");
-            holderSection.classList.add("one", "holder-section");
-            recordHolders.append(holderSection);
-            
-            const holderImg = document.createElement("img");
-            holderImg.src = holder.record_holder_image; 
-            holderSection.append(holderImg);
-            
-            const h4 = document.createElement("h4");
-            h4.innerHTML = "Current Record Holder:";
-            holderSection.append(h4);
-            
-            const h3 = document.createElement("h3");
-            h3.innerHTML = holder.record_holder; 
-            holderSection.append(h3);
-            
-            const p = document.createElement("p");
-            p.innerHTML = holder.record_holder_desc;
-            holderSection.append(p);
-            
-            const prevHolderSection = document.createElement("section");
-            prevHolderSection.classList.add("one", "holder-section");
-            recordHolders.append(prevHolderSection);
-            
-            const prevHolderImg = document.createElement("img");
-            prevHolderImg.src = holder.prev_record_holder_image; 
-            prevHolderSection.append(prevHolderImg);
-            
-            const prevh4 = document.createElement("h4");
-            prevh4.innerHTML = "Previous Record Holder:";
-            prevHolderSection.append(prevh4);
-            
-            const prevh3 = document.createElement("h3");
-            prevh3.innerHTML = holder.prev_record_holder; 
-            prevHolderSection.append(prevh3);
-            
-            const prevp = document.createElement("p");
-            prevp.innerHTML = holder.prev_record_holder_desc;
-            prevHolderSection.append(prevp);
-        });
+        const holders = record.record; // Assuming record holds an array of records
+        if (Array.isArray(holders) && holders.length > 0) {
+            holders.forEach(holder => {
+                const holderSection = document.createElement("section");
+                holderSection.classList.add("one", "holder-section");
+                recordHolders.append(holderSection);
 
-        // Close modal on click
+                const holderImg = document.createElement("img");
+                holderImg.src = holder.record_holder_image; // Access holder's image
+                holderSection.append(holderImg);
+
+                const h4 = document.createElement("h4");
+                h4.innerHTML = "Current Record Holder:";
+                holderSection.append(h4);
+
+                const h3 = document.createElement("h3");
+                h3.innerHTML = holder.record_holder; // Access holder's name
+                holderSection.append(h3);
+
+                const p = document.createElement("p");
+                p.innerHTML = holder.record_holder_desc; // Access holder's description
+                holderSection.append(p);
+            });
+        }
+
+        // Handle previous record holder similarly if necessary
+        const prevHolderSection = document.createElement("section");
+        prevHolderSection.classList.add("one", "holder-section");
+        recordHolders.append(prevHolderSection);
+
+        const prevHolderImg = document.createElement("img");
+        prevHolderImg.src = holders[0].prev_record_holder_image; // Accessing from the first holder
+        prevHolderSection.append(prevHolderImg);
+
+        const prevh4 = document.createElement("h4");
+        prevh4.innerHTML = "Previous Record Holder:";
+        prevHolderSection.append(prevh4);
+
+        const prevh3 = document.createElement("h3");
+        prevh3.innerHTML = holders[0].prev_record_holder; // Accessing previous holder's name
+        prevHolderSection.append(prevh3);
+
+        const prevp = document.createElement("p");
+        prevp.innerHTML = holders[0].prev_record_holder_desc; // Accessing previous holder's description
+        prevHolderSection.append(prevp);
+
+        // Close modal when clicking outside
         modal.onclick = (e) => {
             if (e.target === modal) {
                 document.body.removeChild(modal);

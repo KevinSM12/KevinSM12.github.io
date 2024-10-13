@@ -3,7 +3,7 @@
         "Most_Points_NBA":[
             {
                 "record_id":"01",
-                "record_title":"Most Points All-Time",
+                "record_title":"Most Points All-Time NBA",
                 "record_image":"https://KevinSM12.github.io/csce242/projects/part6/images/most-pts-img-nba.jpg",
                 "record_description":"This record is held by the player has acrewd the most points total throughout their career. This record has always been a part of basketball but was only offcial tracked stating in 1970.",
 
@@ -22,7 +22,7 @@
         "Most_Steals_NBA":[
             {
                 "record_id":"02",
-                "record_title":"Most Steals All-Time",
+                "record_title":"Most Steals All-Time NBA",
                 "record_image":"https://KevinSM12.github.io/csce242/projects/part6/images/most-stls-img-nba.jpg",
                 "record_description":"This record is held by the player with the most steals in their career. THis player is the shiftiest and has gained their team mnay a turnover in their day.",
 
@@ -41,7 +41,7 @@
         "Most_Blocks_NBA":[
             {
                 "record_id":"03",
-                "record_title":"Most Blocks All-Time",
+                "record_title":"Most Blocks All-Time NBA",
                 "record_image":"https://KevinSM12.github.io/csce242/projects/part6/images/most-blks-img-nba.jpg",
                 "record_description":"This record is held by the player who has acrewed the most blocks throgout their career. Blocking is one of the hardes parts of basketball as you have to predict where the offense is going to shoot or dunk.",
                 "record":[
@@ -59,7 +59,7 @@
         "Most_TDs_NBA":[
             {
                 "record_id":"04",
-                "record_title":"Most TDs All-Time",
+                "record_title":"Most TDs All-Time NBA",
                 "record_image":"https://KevinSM12.github.io/csce242/projects/part6/images/most-TD-img-nba.jpg",
                 "record_description":"This record encompasses the player that has attained the most triple double games in their career. This means that they got double digits in three different stats througout the course of the game.",
                 "record":[
@@ -77,7 +77,7 @@
         "Most_Rebounds_NBA":[
             {
                 "record_id":"05",
-                "record_title":"Most Rebounds All-Time",
+                "record_title":"Most Rebounds All-Time NBA",
                 "record_image":"https://KevinSM12.github.io/csce242/projects/part6/images/most-rebnd-img-nba.jpg",
                 "record_description":"This record shows the player with the most amount of rebounds in their career. Some of the best defenders in the history of the sport have battled for this record.",
                 "record":[
@@ -95,7 +95,7 @@
         "Most_Assits_NBA":[
             {
                 "record_id":"06",
-                "record_title":"Most Assists All-Time",
+                "record_title":"Most Assists All-Time NBA",
                 "record_image":"https://KevinSM12.github.io/csce242/projects/part6/images/most-ass-img-nba.jpg",
                 "record_description":"This record is given to the player with the most assists throughout their career. This player is one of the best teamates of all time as they give up the glory of scoring to help their team.",
                 "record":[
@@ -113,7 +113,7 @@
         "Most_Points_WNBA":[
             {
                 "record_id":"07",
-                "record_title":"Most Points All-Time",
+                "record_title":"Most Points All-Time WNBA",
                 "record_image":"https://KevinSM12.github.io/csce242/projects/part6/images/most-pts-img-wnba.jpg",
                 "record_description":"This record is held by the player has acrewd the most points total throughout their career. This record has always been a part of basketball but was only offcial tracked stating in 1970.",
 
@@ -132,7 +132,7 @@
         "Most_Steals_WNBA":[
             {
                 "record_id":"08",
-                "record_title":"Most Steals All-Time",
+                "record_title":"Most Steals All-Time WNBA",
                 "record_image":"https://KevinSM12.github.io/csce242/projects/part6/images/most-stls-img-wnba.jpg",
                 "record_description":"This record is held by the player with the most steals in their career. THis player is the shiftiest and has gained their team mnay a turnover in their day.",
 
@@ -151,7 +151,7 @@
         "Most_Blocks_WNBA":[
             {
                 "record_id":"09",
-                "record_title":"Most Blocks All-Time",
+                "record_title":"Most Blocks All-Time WNBA",
                 "record_image":"https://KevinSM12.github.io/csce242/projects/part6/images/most-blks-img-wnba.jpg",
                 "record_description":"This record is held by the player who has acrewed the most blocks throgout their career. Blocking is one of the hardes parts of basketball as you have to predict where the offense is going to shoot or dunk.",
                 "record":[
@@ -169,7 +169,7 @@
         "Most_TDs_WNBA":[
             {
                 "record_id":"10",
-                "record_title":"Most TDs All-Time",
+                "record_title":"Most TDs All-Time WNBA",
                 "record_image":"https://KevinSM12.github.io/csce242/projects/part6/images/most-TD-img-wnba.jpg",
                 "record_description":"This record encompasses the player that has attained the most triple double games in their career. This means that they got double digits in three different stats througout the course of the game.",
                 "record":[
@@ -187,7 +187,7 @@
         "Most_Rebounds_WNBA":[
             {
                 "record_id":"11",
-                "record_title":"Most Rebounds All-Time",
+                "record_title":"Most Rebounds All-Time WNBA",
                 "record_image":"https://KevinSM12.github.io/csce242/projects/part6/images/most-rebnd-img-wnba.jpg",
                 "record_description":"This record shows the player with the most amount of rebounds in their career. Some of the best defenders in the history of the sport have battled for this record.",
                 "record":[
@@ -205,7 +205,7 @@
         "Most_Assits_WNBA":[
             {
                 "record_id":"12",
-                "record_title":"Most Assists All-Time",
+                "record_title":"Most Assists All-Time WNBA",
                 "record_image":"https://KevinSM12.github.io/csce242/projects/part6/images/most-ass-img-wnba.jpg",
                 "record_description":"This record is given to the player with the most assists throughout their career. This player is one of the best teamates of all time as they give up the glory of scoring to help their team.",
                 "record":[
@@ -223,7 +223,7 @@
         "Most_Points_FIBA":[
             {
                 "record_id":"13",
-                "record_title":"Most Points All-Time",
+                "record_title":"Most Points All-Time FIBA",
                 "record_image":"https://KevinSM12.github.io/csce242/projects/part6/images/most-pts-img-fiba.jpg",
                 "record_description":"This record is held by the player has acrewd the most points total throughout their career. This record has always been a part of basketball but was only offcial tracked stating in 1970.",
 
@@ -242,7 +242,7 @@
         "Most_Steals_FIBA":[
             {
                 "record_id":"14",
-                "record_title":"Most Steals All-Time",
+                "record_title":"Most Steals All-Time FIBA",
                 "record_image":"KevinSM12.github.io/csce242/projects/part6/images/most-stls-img-fiba.jpg",
                 "record_description":"This record is held by the player with the most steals in their career. THis player is the shiftiest and has gained their team mnay a turnover in their day.",
 
@@ -261,7 +261,7 @@
         "Most_Blocks_FIBA":[
             {
                 "record_id":"15",
-                "record_title":"Most Blocks All-Time",
+                "record_title":"Most Blocks All-Time FIBA",
                 "record_image":"https://KevinSM12.github.io/csce242/projects/part6/images/most-blks-img-fiba.jpg",
                 "record_description":"This record is held by the player who has acrewed the most blocks throgout their career. Blocking is one of the hardes parts of basketball as you have to predict where the offense is going to shoot or dunk.",
                 "record":[
@@ -279,7 +279,7 @@
         "Most_TDs_FIBA":[
             {
                 "record_id":"16",
-                "record_title":"Most TDs All-Time",
+                "record_title":"Most TDs All-Time FIBA",
                 "record_image":"https://KevinSM12.github.io/csce242/projects/part6/images/most-TD-img-fiba.jpg",
                 "record_description":"This record encompasses the player that has attained the most triple double games in their career. This means that they got double digits in three different stats througout the course of the game.",
                 "record":[
@@ -297,7 +297,7 @@
         "Most_Rebounds_FIBA":[
             {
                 "record_id":"17",
-                "record_title":"Most Rebounds All-Time",
+                "record_title":"Most Rebounds All-Time FIBA",
                 "record_image":"https://KevinSM12.github.io/csce242/projects/part6/images/most-rebnd-img-fiba.jpg",
                 "record_description":"This record shows the player with the most amount of rebounds in their career. Some of the best defenders in the history of the sport have battled for this record.",
                 "record":[
@@ -315,7 +315,7 @@
         "Most_Assits_FIBA":[
             {
                 "record_id":"18",
-                "record_title":"Most Assists All-Time",
+                "record_title":"Most Assists All-Time FIBA",
                 "record_image":"https://KevinSM12.github.io/csce242/projects/part6/images/most-ass-img-fiba.jpg",
                 "record_description":"This record is given to the player with the most assists throughout their career. This player is one of the best teamates of all time as they give up the glory of scoring to help their team.",
                 "record":[
@@ -333,7 +333,7 @@
         "Most_Points_NCAA":[
             {
                 "record_id":"19",
-                "record_title":"Most Points All-Time",
+                "record_title":"Most Points All-Time NCAA",
                 "record_image":"https://KevinSM12.github.io/csce242/projects/part6/images/most-pts-img-ncaa.jpg",
                 "record_description":"This record is held by the player has acrewd the most points total throughout their career. This record has always been a part of basketball but was only offcial tracked stating in 1970.",
 
@@ -352,7 +352,7 @@
         "Most_Steals_NCAA":[
             {
                 "record_id":"20",
-                "record_title":"Most Steals All-Time",
+                "record_title":"Most Steals All-Time NCAA",
                 "record_image":"https://KevinSM12.github.io/csce242/projects/part6/images/most-stls-img-ncaa.jpg",
                 "record_description":"This record is held by the player with the most steals in their career. THis player is the shiftiest and has gained their team mnay a turnover in their day.",
 
@@ -371,7 +371,7 @@
         "Most_Blocks_NCAA":[
             {
                 "record_id":"21",
-                "record_title":"Most Blocks All-Time",
+                "record_title":"Most Blocks All-Time NCAA",
                 "record_image":"https://KevinSM12.github.io/csce242/projects/part6/images/most-blks-img-ncaa.jpg",
                 "record_description":"This record is held by the player who has acrewed the most blocks throgout their career. Blocking is one of the hardes parts of basketball as you have to predict where the offense is going to shoot or dunk.",
                 "record":[
@@ -389,7 +389,7 @@
         "Most_TDs_NCAA":[
             {
                 "record_id":"22",
-                "record_title":"Most TDs All-Time",
+                "record_title":"Most TDs All-Time NCAA",
                 "record_image":"https://KevinSM12.github.io/csce242/projects/part6/images/most-TD-img-ncaa.jpg",
                 "record_description":"This record encompasses the player that has attained the most triple double games in their career. This means that they got double digits in three different stats througout the course of the game.",
                 "record":[
@@ -407,7 +407,7 @@
         "Most_Rebounds_NCAA":[
             {
                 "record_id":"23",
-                "record_title":"Most Rebounds All-Time",
+                "record_title":"Most Rebounds All-Time NCAA",
                 "record_image":"https://KevinSM12.github.io/csce242/projects/part6/images/most-rebnd-img-ncaa.jpg",
                 "record_description":"This record shows the player with the most amount of rebounds in their career. Some of the best defenders in the history of the sport have battled for this record.",
                 "record":[
@@ -425,7 +425,7 @@
         "Most_Assits_NCAA":[
             {
                 "record_id":"24",
-                "record_title":"Most Assists All-Time",
+                "record_title":"Most Assists All-Time NCAA",
                 "record_image":"https://KevinSM12.github.io/csce242/projects/part6/images/most-ass-img-ncaa.jpg",
                 "record_description":"This record is given to the player with the most assists throughout their career. This player is one of the best teamates of all time as they give up the glory of scoring to help their team.",
                 "record":[
