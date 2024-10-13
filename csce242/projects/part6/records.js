@@ -20,9 +20,8 @@ const showRecords = async () => {
     }
 
     records.forEach(categoryObject => {
-        // Each categoryObject will be an object with a single key
         Object.keys(categoryObject).forEach(category => {
-            const recordsArray = categoryObject[category]; // This should be an array
+            const recordsArray = categoryObject[category]; 
             if (Array.isArray(recordsArray)) {
                 recordsArray.forEach(record => {
                     recordsSection.append(getRecord(record));
@@ -47,11 +46,11 @@ const getRecord = (record) => {
     
     const title = document.createElement("h4");
     title.innerHTML = record.record_title;
-    recordDiv.append(title); // Append title to recordDiv
+    recordDiv.append(title); 
 
     const desc = document.createElement("p");
     desc.innerHTML = record.record_description;
-    recordDiv.append(desc); // Append description to recordDiv
+    recordDiv.append(desc); 
 
     section.onclick = () => {
         console.log("Section clicked");
@@ -72,7 +71,7 @@ const getRecord = (record) => {
         recordHolders.classList.add("columns", "record-holders");
         content.append(recordHolders);
 
-        const holders = record.record; // Assuming record holds an array of records
+        const holders = record.record; 
         if (Array.isArray(holders) && holders.length > 0) {
             holders.forEach(holder => {
                 const holderSection = document.createElement("section");
@@ -80,7 +79,7 @@ const getRecord = (record) => {
                 recordHolders.append(holderSection);
 
                 const holderImg = document.createElement("img");
-                holderImg.src = holder.record_holder_image; // Access holder's image
+                holderImg.src = holder.record_holder_image; 
                 holderSection.append(holderImg);
 
                 const h4 = document.createElement("h4");
@@ -88,22 +87,22 @@ const getRecord = (record) => {
                 holderSection.append(h4);
 
                 const h3 = document.createElement("h3");
-                h3.innerHTML = holder.record_holder; // Access holder's name
+                h3.innerHTML = holder.record_holder;
                 holderSection.append(h3);
 
                 const p = document.createElement("p");
-                p.innerHTML = holder.record_holder_desc; // Access holder's description
+                p.innerHTML = holder.record_holder_desc; 
                 holderSection.append(p);
             });
         }
 
-        // Handle previous record holder similarly if necessary
+        
         const prevHolderSection = document.createElement("section");
         prevHolderSection.classList.add("one", "holder-section");
         recordHolders.append(prevHolderSection);
 
         const prevHolderImg = document.createElement("img");
-        prevHolderImg.src = holders[0].prev_record_holder_image; // Accessing from the first holder
+        prevHolderImg.src = holders[0].prev_record_holder_image; 
         prevHolderSection.append(prevHolderImg);
 
         const prevh4 = document.createElement("h4");
@@ -111,14 +110,13 @@ const getRecord = (record) => {
         prevHolderSection.append(prevh4);
 
         const prevh3 = document.createElement("h3");
-        prevh3.innerHTML = holders[0].prev_record_holder; // Accessing previous holder's name
+        prevh3.innerHTML = holders[0].prev_record_holder;
         prevHolderSection.append(prevh3);
 
         const prevp = document.createElement("p");
-        prevp.innerHTML = holders[0].prev_record_holder_desc; // Accessing previous holder's description
+        prevp.innerHTML = holders[0].prev_record_holder_desc; 
         prevHolderSection.append(prevp);
 
-        // Close modal when clicking outside
         modal.onclick = (e) => {
             if (e.target === modal) {
                 document.body.removeChild(modal);
