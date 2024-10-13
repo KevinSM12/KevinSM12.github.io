@@ -9,7 +9,7 @@ const getRecords = async() => {
     }
 };
 
-const showRecords = async() => {
+const showRecords = async () => {
     const records = await getRecords();
     console.log(records);
     const recordsSection = document.getElementById("records");
@@ -18,8 +18,12 @@ const showRecords = async() => {
         console.error("No records found");
         return;
     }
-    records.forEach((record)=>{
-        recordsSection.append(getRecord(record));
+
+    // Loop through each category in the records (like Most_Points_NBA)
+    Object.keys(records).forEach(category => {
+        records[category].forEach(record => {
+            recordsSection.append(getRecord(record));
+        });
     });
 };
 
