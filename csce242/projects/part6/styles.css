@@ -262,7 +262,7 @@ hr{
 
 .item {
     flex: 0 0 calc(33.33% - 10px); 
-    box-sizing: border-box;
+    box-sizing:border-box;
     margin-bottom: 10px;
 }
 
