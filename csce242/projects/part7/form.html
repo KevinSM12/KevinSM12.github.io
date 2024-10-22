@@ -26,39 +26,65 @@
                 </ul>
             </nav>
         </header>
-        <div id="form-content">
-            <h1>Addition Form</h1>
-            <hr />
-            <p>
-                <label for="email-txt">Email:</label>
-                <input type="text" id="email-txt">
-            </p>
-            <p>
-                <label for="league-txt">League:</label>
-                <input type="text" id="league-txt">
-            </p>
-            <p>
-                <label for="record-txt">Record:</label>
-                <input type="text" id="record-txt">
-            </p>
-            <p>
-                <label for="rec-hold-txt">Current Record Holder:</label>
-                <input type="text" id="rec-hold-txt">
-            </p>
-            <p>
-                <label for="desc-rec-hold-txt">Description of Current Record Holder:</label>
-                <textarea id="desc-rec-hold-txt"></textarea>
-            </p>
-            <p>
-                <label for="prev-hold-txt">Previous Record Holder:</label>
-                <input type="text" id="prev-hold-txt">
-            </p>
-            <p>
-                <label for="desc-prev-hold-txt-txt">Description of Previous Record Holder:</label>
-                <textarea id="desc-prev-hold-txt"></textarea>
-            </p>
-            <button id="submit-btn">Submit Record</button>
-        </div>
+        <section class="info-section">
+            <h3>Record Form</h3>
+            <div class="columns">
+              <form
+                id="contact-form"
+                action="https://api.web3forms.com/submit"
+                method="POST"
+              >
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="2cc869cb-a5d4-4b4b-b609-7d0a0bd4ea78"
+                />
+      
+                <p>
+                  <label for="name">Name:</label>
+                  <input
+                    id="name"
+                    type="text"
+                    placeholder="first and last"
+                    name="name"
+                    required
+                  />
+                </p>
+                <p>
+                  <label for="email">Email:</label>
+                  <input id="email" type="email" name="email" required />
+                </p>
+                <p>
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" required></textarea>
+                </p>
+                <input
+                  type="hidden"
+                  name="redirect"
+                  value="https://web3forms.com/success"
+                />
+                <input
+                  type="hidden"
+                  name="subject"
+                  value="Contact from Jaspers Website"
+                />
+                <input type="hidden" name="from_name" value="My Website" />
+      
+                <p>
+                  <button type="submit">Submit Form</button>
+                </p>
+      
+                <p id="result"></p>
+              </form>
+              <iframe
+                id="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.9680495664916!2d-81.03426492365364!3d33.99335442083652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bb2802562b89%3A0x1f5707bd271c887!2sAssembly%20Blossom%20NB!5e0!3m2!1sen!2sus!4v1697203534136!5m2!1sen!2sus"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </section>
         <script src="script.js"></script>
     </body>
 </html>
