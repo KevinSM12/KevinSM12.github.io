@@ -1,0 +1,36 @@
+body{
+    background-color: lightsteelblue;
+    text-align: center;
+}
+
+h1{
+    color:steelblue;
+}
+
+.about{
+    background-color: antiquewhite;
+    margin: 5px;
+    border: solid grey 1px;
+    border-radius: 10px;
+}
+
+.skills{
+    background-color: antiquewhite;
+    margin: 5px;
+    border: solid grey 1px;
+    border-radius: 10px;
+}
+
+.projects{
+    background-color: antiquewhite;
+    margin: 5px;
+    border: solid grey 1px;
+    border-radius: 10px;
+}
+
+.contact{
+    background-color: antiquewhite;
+    margin: 5px;
+    border: solid grey 1px;
+    border-radius: 10px;
+}
