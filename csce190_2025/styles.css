@@ -1,36 +1,25 @@
-body{
-    background-color: lightsteelblue;
+body {
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
 }
 
-h1{
-    color:steelblue;
+h1 {
+    color:darkslategray;
 }
 
-.about{
-    background-color: antiquewhite;
-    margin: 5px;
-    border: solid grey 1px;
-    border-radius: 10px;
+.about {
+    background-color: darkgreen;
 }
 
-.skills{
-    background-color: antiquewhite;
-    margin: 5px;
-    border: solid grey 1px;
-    border-radius: 10px;
+.skills {
+    background-color: darkgreen;
 }
 
-.projects{
-    background-color: antiquewhite;
-    margin: 5px;
-    border: solid grey 1px;
-    border-radius: 10px;
+.projects {
+    background-color: darkgreen;
 }
 
-.contact{
-    background-color: antiquewhite;
-    margin: 5px;
-    border: solid grey 1px;
-    border-radius: 10px;
+.contact {
+    background-color: darkgreen;
 }
