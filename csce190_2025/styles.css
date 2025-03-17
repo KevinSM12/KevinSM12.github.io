@@ -16,8 +16,26 @@ h1 {
     background-color: darkgreen;
 }
 
+a {  /* change the appearance of ALL links */
+    text-decoration: none;
+    color: purple;
+}
+.project p {  /* change the appearance of paragraph tags inside .project divs */
+    text-align: center;
+    margin: 15px;
+}
+
 .projects {
     background-color: darkgreen;
+}
+
+.projects img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid rgb(126, 14, 201); /* choose a color */
+    display: block;
+    margin: auto;
 }
 
 .contact {
