@@ -25,11 +25,11 @@ a {  /* change the appearance of ALL links */
     margin: 15px;
 }
 
-.projects {
+.project {
     background-color: darkgreen;
 }
 
-.projects img{
+.project img{
     width: 300px;
     height: 300px;
     margin: 10px;
@@ -38,7 +38,7 @@ a {  /* change the appearance of ALL links */
     margin: auto;
 }
 
-.projects {   display:flex; flex-wrap:wrap;  }  /* condensed to save space */
+.project {   display:flex; flex-wrap:wrap;  }  /* condensed to save space */
 
 .project {
     width: 30%;
