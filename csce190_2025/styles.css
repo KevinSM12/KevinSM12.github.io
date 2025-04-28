@@ -13,7 +13,28 @@ h1 {
     background-color: darkgreen;
     padding-top: 20px;
     padding-bottom: 20px;
+    display:flex;
+    flex-wrap:wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: center;
+        
 }
+
+.about img {
+    width: 150px;
+    height: 200px;
+    border-radius: 25%;
+    border: 2px solid  rgb(126, 14, 201);
+}
+
+.about p {
+    width:50%;
+    text-align: center;
+    margin: auto;
+    line-height: 125%;
+}
+
 
 .skills {
     background-color: darkgreen;
@@ -30,12 +51,9 @@ a {  /* change the appearance of ALL links */
     margin: 15px;
 }
 
-#project {
+#projects {
+    background-color: lightgreen;
     text-align: center;
-}
-
-.project {
-    background-color: darkgreen;
 }
 
 .project img{
@@ -47,9 +65,9 @@ a {  /* change the appearance of ALL links */
     margin: auto;
 }
 
-.project {   display:flex; flex-wrap:wrap;  }  /* condensed to save space */
-
 .project {
+    display:flex; 
+    flex-wrap:wrap;
     width: 30%;
     margin: 10px;
     padding: 20px 10px;
